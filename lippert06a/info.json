@@ -1,0 +1,16 @@
+{
+    "abstract": "We consider the problem of Tikhonov regularization with a general\nconvex loss function: this formalism includes\nsupport vector machines and regularized least squares.  For a family of\nkernels that includes the Gaussian, parameterized by a \"bandwidth\"\nparameter &#963;, we characterize the limiting solution as &#963;\n&#8594; &#8734;.  In particular, we show that if we\nset the regularization parameter &#955; = <sup>~</sup>&#955; &#963;<sup>-2<i>p</i></sup>, the regularization term of the Tikhonov\nproblem tends to an indicator function on polynomials of degree\n&#8970;<i>p</i>&#8971; (with residual regularization in the case where <i>p</i>\n&#8712; <i>Z</i>).  The proof rests on two key ideas: <i>epi-convergence</i>, a\nnotion of functional convergence under which limits of minimizers\nconverge to minimizers of limits, and a <i>value-based formulation\nof learning</i>, where we work with regularization on the function output\nvalues (<i>y</i>) as opposed to the function expansion coefficients in the\nRKHS.  Our result generalizes and unifies previous results in this\narea.",
+    "authors": [
+        "Ross A. Lippert",
+        "Ryan M. Rifkin"
+    ],
+    "id": "lippert06a",
+    "issue": 29,
+    "pages": [
+        855,
+        876
+    ],
+    "title": "Infinite-\u00cf\u0083 Limits For Tikhonov Regularization",
+    "volume": "7",
+    "year": "2006"
+}

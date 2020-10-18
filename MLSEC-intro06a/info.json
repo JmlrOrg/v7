@@ -1,0 +1,16 @@
+{
+    "abstract": "The prevalent use of computers and internet has enhanced the quality\nof life for many people, but it has also attracted undesired attempts\nto undermine these systems.  This special topic contains several\nresearch studies on how machine learning algorithms can help improve\nthe security of computer systems.",
+    "authors": [
+        "Philip K. Chan",
+        "Richard P. Lippmann"
+    ],
+    "id": "MLSEC-intro06a",
+    "issue": 95,
+    "pages": [
+        2669,
+        2672
+    ],
+    "title": "Machine Learning for Computer Security",
+    "volume": "7",
+    "year": "2006"
+}

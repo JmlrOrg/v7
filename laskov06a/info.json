@@ -1,0 +1,18 @@
+{
+    "abstract": "Incremental Support Vector Machines (SVM) are instrumental in\npractical applications of online learning. This work focuses on the\ndesign and analysis of efficient incremental SVM learning, with the\naim of providing a fast, numerically stable and robust\nimplementation. A detailed analysis of convergence and of\nalgorithmic complexity of incremental SVM learning is carried out.\nBased on this analysis, a new design of storage and numerical\noperations is proposed, which speeds up the training of an\nincremental SVM by a factor of 5 to 20. The performance of the new\nalgorithm is demonstrated in two scenarios: learning with limited\nresources and active learning. Various applications of the\nalgorithm, such as in drug discovery, online monitoring of\nindustrial devices and and surveillance of network traffic, can be\nforeseen.",
+    "authors": [
+        "Pavel Laskov",
+        "Christian Gehl",
+        "Stefan Kr{{\\\"u}}ger",
+        "Klaus-Robert M{{\\\"u}}ller"
+    ],
+    "id": "laskov06a",
+    "issue": 68,
+    "pages": [
+        1909,
+        1936
+    ],
+    "title": "Incremental Support Vector Learning: Analysis, Implementation and Applications",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "We propose an active set algorithm to solve the convex \nquadratic programming (QP) problem which is the core of \nthe support vector machine (SVM) training. \nThe underlying method is not new and is based on the \nextensive practice of the Simplex method and its variants\nfor convex quadratic problems. However, its application\nto large-scale SVM problems is new. Until recently the \ntraditional active set methods were considered impractical for\nlarge SVM problems. By adapting the methods to the special \nstructure of SVM problems we were able to produce an efficient \nimplementation.  We conduct an extensive study of the behavior \nof our method and its variations on SVM problems.\n We present computational results comparing our method with\nJoachims' SVM<sup><i>light</i></sup> (see Joachims, 1999). \nThe results show that our method has overall\nbetter performance on many SVM problems. It seems to have \na particularly strong advantage on more difficult problems. \nIn addition this algorithm has better theoretical properties \nand it  naturally extends to the incremental mode. Since \nthe proposed method solves the standard SVM formulation, as \ndoes SVM<sup><i>light</i></sup>, the generalization properties of these \ntwo approaches are identical and we do not discuss them in \nthe paper.",
+    "authors": [
+        "Katya Scheinberg"
+    ],
+    "id": "scheinberg06a",
+    "issue": 79,
+    "pages": [
+        2237,
+        2257
+    ],
+    "title": "An Efficient Implementation of an Active Set Method for SVMs",
+    "volume": "7",
+    "year": "2006"
+}

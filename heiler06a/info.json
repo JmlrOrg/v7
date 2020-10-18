@@ -1,0 +1,16 @@
+{
+    "abstract": "We exploit the biconvex nature of the Euclidean non-negative matrix\nfactorization (NMF) optimization problem to derive optimization\nschemes based on sequential quadratic and second order cone\nprogramming.  We show that for ordinary NMF, our approach performs\nas well as existing state-of-the-art algorithms, while for\nsparsity-constrained NMF, as recently proposed by P. O. Hoyer in\n<i>JMLR 5 (2004)</i>, it outperforms previous methods.  In addition,\nwe show how to extend NMF learning within the same optimization\nframework in order to make use of class membership information in\nsupervised learning problems.",
+    "authors": [
+        "Matthias Heiler",
+        "Christoph Schn{{\\\"o}}rr"
+    ],
+    "id": "heiler06a",
+    "issue": 50,
+    "pages": [
+        1385,
+        1407
+    ],
+    "title": "Learning Sparse Representations by Non-Negative Matrix Factorization and Sequential Cone Programming",
+    "volume": "7",
+    "year": "2006"
+}

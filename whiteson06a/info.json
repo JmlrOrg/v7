@@ -1,0 +1,16 @@
+{
+    "abstract": "Temporal difference methods are theoretically grounded and empirically\neffective methods for addressing reinforcement learning problems.\nIn most real-world reinforcement learning tasks, TD methods require\na function approximator to represent the value function.  However,\nusing function approximators requires manually making crucial\nrepresentational decisions.  This paper investigates\n<i>evolutionary function approximation</i>, a novel approach to\nautomatically selecting function approximator representations that\nenable efficient individual learning.  This method <i>evolves</i>\nindividuals that are better able to <i>learn</i>.  We present a\nfully implemented instantiation of evolutionary function\napproximation which combines NEAT, a neuroevolutionary optimization\ntechnique, with Q-learning, a popular TD method.  The resulting\nNEAT+Q algorithm automatically discovers effective representations\nfor neural network function approximators.  This paper also presents\n<i>on-line evolutionary computation</i>, which improves the on-line\nperformance of evolutionary computation by borrowing selection\nmechanisms used in TD methods to choose individual actions and using\nthem in evolutionary computation to select policies for evaluation.\nWe evaluate these contributions with extended empirical studies in\ntwo domains: 1) the mountain car task, a standard reinforcement\nlearning benchmark on which neural network function approximators\nhave previously performed poorly and 2) server job scheduling, a\nlarge probabilistic domain drawn from the field of autonomic\ncomputing.  The results demonstrate that evolutionary function\napproximation can significantly improve the performance of TD\nmethods and on-line evolutionary computation can significantly\nimprove evolutionary methods.  This paper also presents additional\ntests that offer insight into what factors can make neural network\nfunction approximation difficult in practice.",
+    "authors": [
+        "Shimon Whiteson",
+        "Peter Stone"
+    ],
+    "id": "whiteson06a",
+    "issue": 30,
+    "pages": [
+        877,
+        917
+    ],
+    "title": "Evolutionary Function Approximation for Reinforcement Learning",
+    "volume": "7",
+    "year": "2006"
+}

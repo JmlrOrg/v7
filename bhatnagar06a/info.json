@@ -1,0 +1,17 @@
+{
+    "abstract": "We study the problem of long-run average cost control of Markov chains\nconditioned on a rare event. In a related recent work, a simulation\nbased algorithm for estimating performance measures associated with a\nMarkov chain conditioned on a rare event has been developed. We extend\nideas from this work and develop an adaptive algorithm for obtaining,\nonline, optimal control policies conditioned on a rare event.  Our\nalgorithm uses three timescales or step-size schedules. On the slowest\ntimescale, a gradient search algorithm for policy updates that is\nbased on one-simulation simultaneous perturbation stochastic\napproximation (SPSA) type estimates is used. Deterministic\nperturbation sequences obtained from appropriate normalized Hadamard\nmatrices are used here. The fast timescale recursions compute the\nconditional transition probabilities of an associated chain by\nobtaining solutions to the multiplicative Poisson equation (for a\ngiven policy estimate).  Further, the risk parameter associated with\nthe value function for a given policy estimate is updated on a\ntimescale that lies in between the two scales above. We briefly sketch\nthe convergence analysis of our algorithm and present a numerical\napplication in the setting of routing multiple flows in communication\nnetworks.",
+    "authors": [
+        "Shalabh Bhatnagar",
+        "Vivek S. Borkar",
+        "Madhukar Akarapu"
+    ],
+    "id": "bhatnagar06a",
+    "issue": 69,
+    "pages": [
+        1937,
+        1962
+    ],
+    "title": "A Simulation-Based Algorithm for Ergodic Control of Markov Chains Conditioned on Rare Events",
+    "volume": "7",
+    "year": "2006"
+}

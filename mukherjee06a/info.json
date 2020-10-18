@@ -1,0 +1,16 @@
+{
+    "abstract": "We introduce an algorithm that learns gradients from samples in\nthe supervised learning framework. An error analysis is given for\nthe convergence of the gradient estimated by the algorithm to the\ntrue gradient. The utility of the algorithm for the problem of\nvariable selection as well as determining variable covariance is\nillustrated on  simulated data as well as two gene expression\ndata sets. For square loss we provide a very efficient\nimplementation with respect to both memory and time.",
+    "authors": [
+        "Sayan Mukherjee",
+        "Ding-Xuan Zhou"
+    ],
+    "id": "mukherjee06a",
+    "issue": 17,
+    "pages": [
+        519,
+        549
+    ],
+    "title": "Learning Coordinate Covariances via Gradients",
+    "volume": "7",
+    "year": "2006"
+}

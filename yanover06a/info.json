@@ -1,0 +1,17 @@
+{
+    "abstract": "<p>\nThe problem of finding the most probable (MAP) configuration in\ngraphical models comes up in a wide range of applications. In a\ngeneral graphical model this problem is NP hard, but various\napproximate algorithms have been developed.  Linear programming (LP)\nrelaxations are a standard method in computer science for\napproximating combinatorial problems and have been used for finding\nthe most probable assignment in small graphical models. However,\napplying this powerful method to real-world problems is extremely\nchallenging due to the large numbers of variables and constraints in\nthe linear program. Tree-Reweighted Belief Propagation is a promising\nrecent algorithm for solving LP relaxations, but little is known about\nits running time on large problems.\n</p>\n<p>\nIn this paper we compare tree-reweighted belief propagation (TRBP) and powerful\ngeneral-purpose LP solvers (CPLEX) on relaxations of real-world graphical\nmodels from the fields of computer vision and computational biology. We find\nthat TRBP almost always finds the solution significantly faster than all the\nsolvers in CPLEX and more importantly, TRBP can be applied to large scale\nproblems for which the solvers in CPLEX cannot be applied. Using TRBP we can\nfind the MAP configurations in a matter of minutes for a large range of real\nworld problems.\n</p>",
+    "authors": [
+        "Chen Yanover",
+        "Talya Meltzer",
+        "Yair Weiss"
+    ],
+    "id": "yanover06a",
+    "issue": 67,
+    "pages": [
+        1887,
+        1907
+    ],
+    "title": "Linear Programming Relaxations and Belief Propagation -- An Empirical Study",
+    "volume": "7",
+    "year": "2006"
+}

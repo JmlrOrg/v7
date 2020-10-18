@@ -1,0 +1,18 @@
+{
+    "abstract": "In regression, the desired estimate of <i>y</i>|<i>x</i> is not always given by a\n conditional mean, although this is most common. Sometimes one wants to\n obtain a good estimate that satisfies the property that a proportion,\n &#964;, of <i>y</i>|<i>x</i>, will be below the estimate. For &#964; = 0.5 this is\n an estimate of the <i>median</i>. What might be called median\n regression, is subsumed under the term <i>quantile regression</i>.  We\n present a nonparametric version of a quantile estimator, which can be\n obtained by solving a simple quadratic programming problem and provide\n uniform convergence statements and bounds on the quantile property of\n our estimator. Experimental results show the feasibility of the\n approach and competitiveness of our method with existing ones.  We\n discuss several types of extensions including an approach to solve the\n <i>quantile crossing</i> problems, as well as a method to incorporate\n prior qualitative knowledge such as monotonicity constraints.",
+    "authors": [
+        "Ichiro Takeuchi",
+        "Quoc V. Le",
+        "Timothy D. Sears",
+        "Alexander J. Smola"
+    ],
+    "id": "takeuchi06a",
+    "issue": 44,
+    "pages": [
+        1231,
+        1264
+    ],
+    "title": "Nonparametric Quantile Estimation",
+    "volume": "7",
+    "year": "2006"
+}

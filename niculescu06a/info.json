@@ -1,0 +1,17 @@
+{
+    "abstract": "<p>\nThe task of learning models for many real-world problems requires\nincorporating domain knowledge into learning algorithms, to enable\naccurate learning from a realistic volume of training data. This paper\nconsiders a variety of types of domain knowledge for constraining\nparameter estimates when learning Bayesian networks. In particular, we\nconsider domain knowledge that constrains the values or relationships\namong subsets of parameters in a Bayesian network with known\nstructure.\n</p><p>\nWe incorporate a wide variety of parameter constraints into learning\nprocedures for Bayesian networks, by formulating this task as a\nconstrained optimization problem. The assumptions made in module\nnetworks, dynamic Bayes nets and context specific independence models\ncan be viewed as particular cases of such parameter constraints. We\npresent closed form solutions or fast iterative algorithms for\nestimating parameters subject to several specific classes of parameter\nconstraints, including equalities and inequalities among parameters,\nconstraints on individual parameters, and constraints on sums and\nratios of parameters, for discrete and continuous variables. Our\nmethods cover learning from both frequentist and Bayesian points of\nview, from both complete and incomplete data.\n</p><p>\nWe present formal guarantees for our estimators, as well as methods\nfor automatically learning useful parameter constraints from data.  To\nvalidate our approach, we apply it to the domain of fMRI brain image\nanalysis. Here we demonstrate the ability of our system to first learn\nuseful relationships among parameters, and then to use them to\nconstrain the training of the Bayesian network, resulting in improved\ncross-validated accuracy of the learned model.  Experiments on\nsynthetic data are also presented.\n</p>",
+    "authors": [
+        "Radu Stefan Niculescu",
+        "Tom M. Mitchell",
+        "R. Bharat Rao"
+    ],
+    "id": "niculescu06a",
+    "issue": 49,
+    "pages": [
+        1357,
+        1383
+    ],
+    "title": "Bayesian Network Learning with Parameter Constraints",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider an optimization problem in probabilistic inference: Given\n<i>n</i> hypotheses <i>H<sub>j</sub></i>, <i>m</i> possible \nobservations <i>O<sub>k</sub></i>, their\nconditional probabilities <i>p<sub>kj</sub></i>, and a particular \n<i>O<sub>k</sub></i>, select a\npossibly small subset of hypotheses excluding the true target only\nwith some error probability &#949;. After specifying the\noptimization goal we show that this problem can be solved through a\nlinear program in <i>mn</i> variables that indicate the probabilities to\ndiscard a hypothesis given an observation. Moreover, we can compute\noptimal strategies where only <i>O(m+n)</i> of these variables get\nfractional values. The manageable size of the linear programs and the\nmostly deterministic shape of optimal strategies makes the method\npracticable. We interpret the dual variables as worst-case\ndistributions of hypotheses, and we point out some counterintuitive\nnonmonotonic behaviour of the variables as a function of the error\nbound &#949;. One of the open problems is the existence of a\npurely combinatorial algorithm that is faster than generic linear\nprogramming.",
+    "authors": [
+        "Anders Bergkvist",
+        "Peter Damaschke",
+        "Marcel L{{\\\"u}}thi"
+    ],
+    "id": "bergkvist06a",
+    "issue": 48,
+    "pages": [
+        1339,
+        1355
+    ],
+    "title": "Linear Programs for Hypotheses Selection in Probabilistic Inference Models",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "We present a simple and scalable algorithm for maximum-margin\nestimation of structured output models, including an important\nclass of Markov networks and combinatorial models.  We formulate\nthe estimation problem as a convex-concave saddle-point problem\nthat allows us to use simple projection methods based on the\ndual extragradient algorithm (Nesterov, 2003).\nThe projection step can be solved using\ndynamic programming or combinatorial algorithms for min-cost\nconvex flow, depending on the structure of the problem. We show\nthat this approach provides a memory-efficient alternative to\nformulations based on reductions to a quadratic program (QP). We\nanalyze the convergence of the method and present experiments on\ntwo very different structured prediction tasks: 3D image\nsegmentation and word alignment, illustrating the favorable\nscaling properties of our algorithm.",
+    "authors": [
+        "Ben Taskar",
+        "Simon Lacoste-Julien",
+        "Michael I. Jordan"
+    ],
+    "id": "taskar06a",
+    "issue": 59,
+    "pages": [
+        1627,
+        1653
+    ],
+    "title": "Structured Prediction, Dual Extragradient and Bregman Projections",
+    "volume": "7",
+    "year": "2006"
+}

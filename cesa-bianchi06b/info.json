@@ -1,0 +1,17 @@
+{
+    "abstract": "A selective sampling algorithm is a learning algorithm for\nclassification that, based on the past observed data, decides whether\nto ask the label of each new instance to be classified.  In this\npaper, we introduce a general technique for turning linear-threshold\nclassification algorithms from the general additive family into\nrandomized selective sampling algorithms. For the most popular\nalgorithms in this family we derive mistake bounds that hold for\nindividual sequences of examples. These bounds show that our\nsemi-supervised algorithms can achieve, on average, the same accuracy\nas that of their fully supervised counterparts, but using fewer\nlabels.  Our theoretical results are corroborated by a number of\nexperiments on real-world textual data.  The outcome of these\nexperiments is essentially predicted by our theoretical results: Our\nselective sampling algorithms tend to perform as well as the\nalgorithms receiving the true label after each classification, while\nobserving in practice substantially fewer labels.",
+    "authors": [
+        "Nicol{{\\'o}} Cesa-Bianchi",
+        "Claudio Gentile",
+        "Luca Zaniboni"
+    ],
+    "id": "cesa-bianchi06b",
+    "issue": 43,
+    "pages": [
+        1205,
+        1230
+    ],
+    "title": "Worst-Case Analysis of Selective Sampling for Linear Classification",
+    "volume": "7",
+    "year": "2006"
+}

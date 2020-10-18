@@ -1,0 +1,16 @@
+{
+    "abstract": "The consistency of classification algorithm plays a central role\nin statistical learning theory. A consistent algorithm guarantees\nus that taking more samples essentially suffices to roughly\nreconstruct the unknown distribution. We consider the consistency\nof ERM scheme over classes of combinations of very simple rules\n(base classifiers) in multiclass classification. Our approach is,\nunder some mild conditions, to establish a quantitative\nrelationship between classification errors and convex risks. In\ncomparison with the related previous work, the feature of our\nresult is that the conditions are mainly expressed in terms of the\ndifferences between some values of the convex function.",
+    "authors": [
+        "Di-Rong Chen",
+        "Tao Sun"
+    ],
+    "id": "chen06a",
+    "issue": 85,
+    "pages": [
+        2435,
+        2447
+    ],
+    "title": "Consistency of Multiclass Empirical Risk Minimization Methods Based on Convex Loss",
+    "volume": "7",
+    "year": "2006"
+}

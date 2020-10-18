@@ -1,0 +1,17 @@
+{
+    "abstract": "We extend the traditional active learning framework to include\nfeedback on features in addition to labeling instances, and we execute\na careful study of the effects of feature selection and human feedback\non features in the setting of text categorization.  Our experiments on\na variety of categorization tasks indicate that there is significant\npotential in improving classifier performance by feature re-weighting,\nbeyond that achieved via membership queries alone (traditional active\nlearning) if we have access to an <i>oracle</i> that can point to the\nimportant (most predictive) features.  Our experiments on human\nsubjects indicate that human feedback on feature relevance can\nidentify a sufficient proportion of the most relevant features (over\n50% in our experiments).  We find that on average, labeling a feature\ntakes much less time than labeling a document.  We devise an algorithm\nthat interleaves labeling features and documents which significantly\naccelerates standard active learning in our simulation experiments.\nFeature feedback can complement traditional active learning in\napplications such as news filtering, e-mail classification, and\npersonalization, where the human teacher can have significant\nknowledge on the relevance of features.",
+    "authors": [
+        "Hema Raghavan",
+        "Omid Madani",
+        "Rosie Jones"
+    ],
+    "id": "raghavan06a",
+    "issue": 60,
+    "pages": [
+        1655,
+        1686
+    ],
+    "title": "Active Learning with Feedback on Features and Instances",
+    "volume": "7",
+    "year": "2006"
+}

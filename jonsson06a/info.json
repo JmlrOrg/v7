@@ -1,0 +1,16 @@
+{
+    "abstract": "We present Variable Influence Structure Analysis, or VISA, an\nalgorithm that performs hierarchical decomposition of factored\nMarkov decision processes.\nVISA uses a dynamic Bayesian network model of actions, and\nconstructs a causal graph that captures relationships between\nstate variables.\nIn tasks with sparse causal graphs VISA exploits structure by\nintroducing activities that cause the values of state variables\nto change.\nThe result is a hierarchy of activities that together represent a\nsolution to the original task.\nVISA performs state abstraction for each activity by\nignoring irrelevant state variables and lower-level activities.\nIn addition, we describe an algorithm for constructing compact\nmodels of the activities introduced.\nState abstraction and compact activity models enable VISA\nto apply efficient algorithms to solve the stand-alone subtask\nassociated with each activity.\nExperimental results show that the decomposition introduced by\nVISA can significantly accelerate construction of an optimal, or\nnear-optimal, policy.",
+    "authors": [
+        "Anders Jonsson",
+        "Andrew Barto"
+    ],
+    "id": "jonsson06a",
+    "issue": 80,
+    "pages": [
+        2259,
+        2301
+    ],
+    "title": "Causal Graph Based Decomposition of Factored MDPs",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "We give dimension-free and data-dependent bounds for linear multi-task\nlearning where a common linear operator is chosen to preprocess data for a\nvector of task specific linear-thresholding classifiers. The complexity\npenalty of multi-task learning is bounded by a simple expression involving\nthe margins of the task-specific classifiers, the Hilbert-Schmidt norm of\nthe selected preprocessor and the Hilbert-Schmidt norm of the covariance\noperator for the total mixture of all task distributions, or, alternatively,\nthe Frobenius norm of the total Gramian matrix for the data-dependent\nversion. The results can be compared to state-of-the-art results on linear\nsingle-task learning.",
+    "authors": [
+        "Andreas Maurer"
+    ],
+    "id": "maurer06a",
+    "issue": 4,
+    "pages": [
+        117,
+        139
+    ],
+    "title": "Bounds for Linear Multi-Task Learning",
+    "volume": "7",
+    "year": "2006"
+}

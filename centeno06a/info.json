@@ -1,0 +1,16 @@
+{
+    "abstract": "In this paper we consider a novel Bayesian interpretation of Fisher's\ndiscriminant analysis. We relate Rayleigh's coefficient to a noise\nmodel that minimises a cost based on the most probable class centres\nand that abandons the 'regression to the labels' assumption used by\nother algorithms. Optimisation of the noise model yields a direction \nof discrimination equivalent to Fisher's discriminant, and with the\nincorporation of a prior we can apply Bayes' rule to infer the\nposterior distribution of the direction of\ndiscrimination. Nonetheless, we argue that an additional constraining\ndistribution has to be included if sensible results are to be\nobtained. Going further, with the use of a Gaussian process prior we\nshow the equivalence of our model to a regularised kernel Fisher's\ndiscriminant. A key advantage of our approach is the facility to\ndetermine kernel parameters and the regularisation coefficient through\nthe optimisation of the marginal log-likelihood of the data. An\nadded bonus of the new formulation is that it enables us to link the\nregularisation coefficient with the generalisation error.",
+    "authors": [
+        "Tonatiuh Pe{{\\~n}}a Centeno",
+        "Neil D. Lawrence"
+    ],
+    "id": "centeno06a",
+    "issue": 15,
+    "pages": [
+        455,
+        491
+    ],
+    "title": "Optimising Kernel Parameters and Regularisation Coefficients for Non-linear Discriminant Analysis",
+    "volume": "7",
+    "year": "2006"
+}

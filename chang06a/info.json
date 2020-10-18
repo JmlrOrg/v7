@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper, we propose a number of adaptive prototype learning\n(APL) algorithms. They employ the same algorithmic scheme to determine\nthe number and location of prototypes, but differ in the use of\nsamples or the weighted averages of samples as prototypes, and also in\nthe assumption of distance measures. To understand these algorithms\nfrom a theoretical viewpoint, we address their convergence properties,\nas well as their consistency under certain conditions. We also present\na soft version of APL, in which a non-zero training error is allowed\nin order to enhance the generalization power of the resultant\nclassifier. Applying the proposed algorithms to twelve UCI benchmark\ndata sets, we demonstrate that they outperform many instance-based\nlearning algorithms, the <i>k</i>-nearest neighbor rule, and support vector\nmachines in terms of average test accuracy.",
+    "authors": [
+        "Fu Chang",
+        "Chin-Chin Lin",
+        "Chi-Jen Lu"
+    ],
+    "id": "chang06a",
+    "issue": 75,
+    "pages": [
+        2125,
+        2148
+    ],
+    "title": "Adaptive Prototype Learning Algorithms: Theoretical and Experimental Studies",
+    "volume": "7",
+    "year": "2006"
+}

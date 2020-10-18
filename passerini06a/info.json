@@ -1,0 +1,17 @@
+{
+    "abstract": "We develop kernels for measuring the similarity between relational\ninstances using background knowledge expressed in first-order logic.\nThe method allows us to bridge the gap between traditional inductive\nlogic programming (ILP) representations and statistical approaches\nto supervised learning. Logic programs are first used to generate\nproofs of given visitor programs that use predicates declared in the\navailable background knowledge. A kernel is then defined over pairs\nof proof trees. The method can be used for supervised learning tasks\nand is suitable for classification as well as regression. We report\npositive empirical results on Bongard-like and <i>M</i>-of-<i>N</i> problems\nthat are difficult or impossible to solve with traditional ILP\ntechniques, as well as on real bioinformatics and chemoinformatics\ndata sets.",
+    "authors": [
+        "Andrea Passerini",
+        "Paolo Frasconi",
+        "Luc De Raedt"
+    ],
+    "id": "passerini06a",
+    "issue": 10,
+    "pages": [
+        307,
+        342
+    ],
+    "title": "Kernels on Prolog Proof Trees: Statistical Learning in the ILP Setting",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nSparsity or parsimony of statistical models is crucial for their\nproper interpretations, as in sciences and social sciences. Model\nselection is a commonly used method to find such models, but usually\ninvolves a computationally heavy combinatorial search.\nLasso (Tibshirani, 1996) is now being used as a computationally\nfeasible alternative to model selection. Therefore it is important\nto study Lasso for model selection purposes.\n</p><p>\nIn this paper, we prove that a single condition, which we call the\nIrrepresentable Condition, is almost necessary and sufficient for\nLasso to select the true model both in the classical fixed <i>p</i> \nsetting and in the large <i>p</i> setting as the sample size <i>n</i> \ngets large.  Based on these results, sufficient\nconditions that are verifiable in practice are given to relate to\nprevious works and help applications of Lasso for feature selection\nand sparse representation.\n</p><p>\nThis Irrepresentable Condition, which depends mainly on the\ncovariance of the predictor variables, states that Lasso selects the\ntrue model consistently if and (almost) only if the predictors that\nare not in the true model are \"irrepresentable\" (in a sense to be\nclarified) by predictors that are in the true model. Furthermore,\nsimulations are carried out to provide insights and understanding of\nthis result.\n</p>",
+    "authors": [
+        "Peng Zhao",
+        "Bin Yu"
+    ],
+    "id": "zhao06a",
+    "issue": 89,
+    "pages": [
+        2541,
+        2563
+    ],
+    "title": "On Model Selection Consistency of Lasso",
+    "volume": "7",
+    "year": "2006"
+}

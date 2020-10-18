@@ -1,0 +1,15 @@
+{
+    "abstract": "The eigenvalues of the kernel matrix play an important role in a\nnumber of kernel methods, in particular, in kernel principal component\nanalysis. It is well known that the eigenvalues of the kernel matrix\nconverge as the number of samples tends to infinity.  We derive\nprobabilistic finite sample size bounds on the approximation error of\nindividual eigenvalues which have the important property that the\nbounds scale with the eigenvalue under consideration, reflecting the\nactual behavior of the approximation errors as predicted by asymptotic\nresults and observed in numerical simulations. Such scaling bounds\nhave so far only been known for tail sums of eigenvalues.\nAsymptotically, the bounds presented here have a slower than\nstochastic rate, but the number of sample points necessary to make\nthis disadvantage noticeable is often unrealistically large.\nTherefore, under practical conditions, and for all but the largest few\neigenvalues, the bounds presented here form a significant improvement\nover existing non-scaling bounds.",
+    "authors": [
+        "Mikio L. Braun"
+    ],
+    "id": "braun06a",
+    "issue": 81,
+    "pages": [
+        2303,
+        2328
+    ],
+    "title": "Accurate Error Bounds for the Eigenvalues of the Kernel Matrix",
+    "volume": "7",
+    "year": "2006"
+}

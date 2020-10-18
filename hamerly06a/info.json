@@ -1,0 +1,19 @@
+{
+    "abstract": "<p>\nAn essential step in designing a new computer architecture is the\ncareful examination of different design options.  It is critical that\ncomputer architects have efficient means by which they may estimate\nthe impact of various design options on the overall machine.  This\ntask is complicated by the fact that different programs, and even\ndifferent parts of the <i>same</i> program, may have distinct behaviors\nthat interact with the hardware in different ways.  Researchers use\nvery detailed simulators to estimate processor performance, which\nmodels every cycle of an executing program.  Unfortunately, simulating\nevery cycle of a real program can take weeks or months.\n</p><p>\nTo address this problem we have created a tool called SimPoint that\nuses data clustering algorithms from machine learning to automatically\nfind repetitive patterns in a program's execution.  By simulating one\nrepresentative of each repetitive behavior pattern, simulation time\ncan be reduced to minutes instead of weeks for standard benchmark\nprograms, with very little cost in terms of accuracy. We describe this\nimportant problem, the data representation and preprocessing methods\nused by SimPoint, the clustering algorithm at the core of SimPoint,\nand we evaluate different options for tuning SimPoint.\n</p>",
+    "authors": [
+        "Greg Hamerly",
+        "Erez Perelman",
+        "Jeremy Lau",
+        "Brad Calder",
+        "Timothy Sherwood"
+    ],
+    "id": "hamerly06a",
+    "issue": 11,
+    "pages": [
+        343,
+        378
+    ],
+    "title": "Using Machine Learning to Guide Architecture Simulation",
+    "volume": "7",
+    "year": "2006"
+}

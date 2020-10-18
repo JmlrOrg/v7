@@ -1,0 +1,17 @@
+{
+    "abstract": "Support vector machines (SVMs), though accurate, are not preferred in\napplications requiring great classification speed, due to the number\nof support vectors being large. To overcome this problem we devise a\nprimal method with the following properties: (1) it decouples the idea\nof basis functions from the concept of support vectors; (2) it\ngreedily finds a set of kernel basis functions of a specified maximum\nsize (<i>d<sub>max</sub></i>) to approximate the SVM primal cost \nfunction well; (3)\nit is efficient and roughly scales as <i>O(nd<sub>max</sub><sup>2</sup>)</i> where \n<i>n</i> is the\nnumber of training examples; and, (4) the number of basis functions it\nrequires to achieve an accuracy close to the SVM accuracy is usually\nfar less than the number of SVM support vectors.",
+    "authors": [
+        "S. Sathiya Keerthi",
+        "Olivier Chapelle",
+        "Dennis DeCoste"
+    ],
+    "id": "keerthi06a",
+    "issue": 54,
+    "pages": [
+        1493,
+        1515
+    ],
+    "title": "Building Support Vector Machines with Reduced Classifier Complexity",
+    "volume": "7",
+    "year": "2006"
+}

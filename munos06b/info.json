@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nPolicy search is a method for approximately solving an optimal\ncontrol problem by performing a parametric optimization search in\na given class of parameterized policies. In order to process a local\noptimization technique, such as a gradient method, we wish to evaluate\nthe sensitivity of the performance measure with respect to the policy\nparameters, the so-called <i>policy gradient</i>. This paper is concerned\nwith the estimation of the policy gradient for continuous-time, deterministic\nstate dynamics, in a <i>reinforcement learning</i> framework, that\nis, when the decision maker does not have a model of the state\ndynamics.\n</p>\n<p>\nWe show that usual likelihood ratio methods used in discrete-time,\nfail to proceed the gradient because they are subject to variance\nexplosion when the discretization time-step decreases to 0. We\ndescribe an alternative approach based on the approximation of the\npathwise derivative, which leads to a policy gradient estimate that\nconverges almost surely to the true gradient when the time-step tends\nto 0. The underlying idea starts with the derivation of an explicit\nrepresentation of the policy gradient using pathwise derivation. This\nderivation makes use of the knowledge of the state dynamics. Then,\nin order to estimate the gradient from the observable data only, we\nuse a stochastic policy to discretize the continuous deterministic\nsystem into a stochastic discrete process, which enables to replace\nthe unknown coefficients by quantities that solely depend on known\ndata. We prove the almost sure convergence of this estimate to the\ntrue policy gradient when the discretization time-step goes to zero. \n</p>\n<p>\nThe method is illustrated on two target problems, in discrete\nand continuous control spaces.\n</p>",
+    "authors": [
+        "R{{\\'e}}mi Munos"
+    ],
+    "id": "munos06b",
+    "issue": 26,
+    "pages": [
+        771,
+        791
+    ],
+    "title": "Policy Gradient in Continuous Time",
+    "volume": "7",
+    "year": "2006"
+}

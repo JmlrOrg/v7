@@ -1,0 +1,17 @@
+{
+    "abstract": "We present a new framework based on walks in a graph for analysis and\ninference in Gaussian graphical models. The key idea is to decompose\nthe correlation between each pair of variables as a sum over all walks\nbetween those variables in the graph. The weight of each walk is given\nby a product of edgewise partial correlation coefficients. This\nrepresentation holds for a large class of Gaussian graphical models\nwhich we call walk-summable. We give a precise characterization of\nthis class of models, and relate it to other classes including\ndiagonally dominant, attractive, non-frustrated, and\npairwise-normalizable. We provide a walk-sum interpretation of\nGaussian belief propagation in trees and of the approximate method of\nloopy belief propagation in graphs with cycles.  The walk-sum\nperspective leads to a better understanding of Gaussian belief\npropagation and to stronger results for its convergence in loopy\ngraphs.",
+    "authors": [
+        "Dmitry M. Malioutov",
+        "Jason K. Johnson",
+        "Alan S. Willsky"
+    ],
+    "id": "malioutov06a",
+    "issue": 72,
+    "pages": [
+        2031,
+        2064
+    ],
+    "title": "Walk-Sums and Belief Propagation in Gaussian Graphical Models",
+    "volume": "7",
+    "year": "2006"
+}

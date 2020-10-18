@@ -1,0 +1,18 @@
+{
+    "abstract": "<p>\nWe present a kernel-based algorithm for hierarchical text\nclassification where the documents are allowed to belong to more\nthan one category at a time. The classification model is a variant\nof the Maximum Margin Markov Network framework, where the\nclassification hierarchy is represented as a  Markov tree equipped\nwith an exponential family defined on the edges.\nWe present an efficient optimization\nalgorithm based on incremental conditional gradient ascent in\nsingle-example subspaces spanned by the marginal dual variables.\nThe optimization is facilitated with a dynamic programming based\nalgorithm that computes best update directions in the feasible set.\n</p><p>\nExperiments show that the algorithm can feasibly optimize training\nsets of thousands of examples and classification hierarchies\nconsisting of hundreds of nodes. Training of the full hierarchical\nmodel is as efficient as training independent SVM-light classifiers\nfor each node.  The algorithm's predictive accuracy was found to be\ncompetitive with other recently introduced hierarchical multi-category\nor multilabel classification learning algorithms.\n</p>",
+    "authors": [
+        "Juho Rousu",
+        "Craig Saunders",
+        "Sandor Szedmak",
+        "John Shawe-Taylor"
+    ],
+    "id": "rousu06a",
+    "issue": 58,
+    "pages": [
+        1601,
+        1626
+    ],
+    "title": "Kernel-Based Learning of Hierarchical Multilabel Classification Models",
+    "volume": "7",
+    "year": "2006"
+}

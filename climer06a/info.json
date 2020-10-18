@@ -1,0 +1,16 @@
+{
+    "abstract": "Given a matrix of values in which the rows correspond to objects and\nthe columns correspond to features of the objects, rearrangement\nclustering is the problem of rearranging the rows of the matrix such\nthat the sum of the similarities between adjacent rows is maximized.\nReferred to by various names and reinvented several \ntimes, this clustering technique has been\nextensively used in many fields over the last three decades.  In this paper, we\npoint out two critical pitfalls that have been previously overlooked.\nThe first pitfall is deleterious when rearrangement clustering is applied to\nobjects that form natural clusters.  The second concerns a\nsimilarity metric that is commonly used.  We present an algorithm that\novercomes these pitfalls.  This algorithm is based on a variation of\nthe Traveling\nSalesman Problem.  It offers an extra benefit as it\nautomatically determines cluster boundaries.  Using this algorithm, we\n<i>optimally</i> solve four\nbenchmark problems and a 2,467-gene expression data clustering\nproblem.  As expected, our new algorithm identifies better clusters \nthan those found by previous\napproaches in all five cases.  Overall,  \nour results demonstrate the benefits\nof rectifying the pitfalls and exemplify the usefulness of this\nclustering technique.  Our code is available at our\nwebsites.",
+    "authors": [
+        "Sharlee Climer",
+        "Weixiong Zhang"
+    ],
+    "id": "climer06a",
+    "issue": 31,
+    "pages": [
+        919,
+        943
+    ],
+    "title": "Rearrangement Clustering: Pitfalls, Remedies, and Applications",
+    "volume": "7",
+    "year": "2006"
+}

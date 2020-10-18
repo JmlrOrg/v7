@@ -1,0 +1,16 @@
+{
+    "abstract": "We present worst case bounds for the learning\nrate of a known prediction method that is based on hierarchical\napplications of binary context tree weighting (CTW) predictors. A\nheuristic application of this approach that relies on Huffman's alphabet\ndecomposition is known to achieve state-of-the-art performance\nin prediction and lossless compression benchmarks. We show that our\nnew bound for this heuristic is tighter than the best known\nperformance guarantees for prediction and lossless compression\nalgorithms in various settings. This result\nsubstantiates the efficiency of this hierarchical method and provides a compelling\nexplanation for its practical success.\nIn addition, we present the results of a few experiments that\nexamine other possibilities for improving the multi-alphabet\nprediction performance of CTW-based algorithms.",
+    "authors": [
+        "Ron Begleiter",
+        "Ran El-Yaniv"
+    ],
+    "id": "begleiter06a",
+    "issue": 12,
+    "pages": [
+        379,
+        411
+    ],
+    "title": "Superior Guarantees for Sequential Prediction and Lossless Compression via Alphabet Decomposition",
+    "volume": "7",
+    "year": "2006"
+}

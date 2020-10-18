@@ -1,0 +1,17 @@
+{
+    "abstract": "Parallel software for solving the quadratic program arising in training\n<i>support vector machines</i> for classification problems is introduced.\nThe software implements an iterative decomposition technique and exploits\nboth the storage and the computing resources\navailable on  multiprocessor systems, by distributing\nthe heaviest computational tasks of each decomposition iteration.\nBased on a wide range of recent theoretical advances,\nrelevant decomposition issues, such as the quadratic\nsubproblem solution, the gradient updating, the working set selection,\nare systematically described and\ntheir careful combination to get an\neffective parallel tool is discussed.\nA comparison with state-of-the-art packages on benchmark problems\ndemonstrates the good accuracy and the remarkable time saving achieved\nby the proposed software. Furthermore, challenging experiments on \nreal-world data sets with millions training samples highlight \nhow the software makes\nlarge scale standard nonlinear support vector machines\neffectively tractable on common multiprocessor systems.\nThis feature is not shown by any of the available codes.",
+    "authors": [
+        "Luca Zanni",
+        "Thomas Serafini",
+        "Gaetano Zanghirati"
+    ],
+    "id": "zanni06a",
+    "issue": 53,
+    "pages": [
+        1467,
+        1492
+    ],
+    "title": "Parallel Software for Training Large Scale Support Vector Machines on Multiprocessor Systems",
+    "volume": "7",
+    "year": "2006"
+}

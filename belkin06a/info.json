@@ -1,0 +1,17 @@
+{
+    "abstract": "We propose a family of learning algorithms based on a new form of\nregularization that allows us to exploit the geometry of the marginal\ndistribution.  We focus on a semi-supervised framework that\nincorporates labeled and unlabeled data in a general-purpose learner.\nSome transductive graph learning algorithms and standard methods\nincluding support vector machines and regularized least squares can be\nobtained as special cases.  We use properties of reproducing kernel\nHilbert spaces to prove new Representer theorems that provide\ntheoretical basis for the algorithms.  As a result (in contrast to\npurely graph-based approaches) we obtain a natural out-of-sample\nextension to novel examples and so are able to handle both\ntransductive and truly semi-supervised settings.  We present\nexperimental evidence suggesting that our semi-supervised algorithms\nare able to use unlabeled data effectively. Finally we have a brief\ndiscussion of unsupervised and fully supervised learning within our\ngeneral framework.",
+    "authors": [
+        "Mikhail Belkin",
+        "Partha Niyogi",
+        "Vikas Sindhwani"
+    ],
+    "id": "belkin06a",
+    "issue": 84,
+    "pages": [
+        2399,
+        2434
+    ],
+    "title": "Manifold  Regularization: A Geometric Framework for Learning from Labeled and Unlabeled Examples",
+    "volume": "7",
+    "year": "2006"
+}

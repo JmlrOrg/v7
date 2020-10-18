@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nDimensionality reduction is an important pre-processing step in many\napplications.  Linear discriminant analysis (LDA) is a classical\nstatistical approach for supervised dimensionality reduction. It aims\nto maximize the ratio of the between-class distance to the\nwithin-class distance, thus maximizing the class discrimination. It\nhas been used widely in many applications. However, the classical LDA\nformulation requires the nonsingularity of the scatter matrices\ninvolved. For undersampled problems, where the data dimensionality is\nmuch larger than the sample size, all scatter matrices are singular\nand classical LDA fails. Many extensions, including null space LDA\n(NLDA) and orthogonal LDA (OLDA), have been proposed in the past to\novercome this problem.  NLDA aims to maximize the between-class\ndistance in the null space of the within-class scatter matrix, while\nOLDA computes a set of orthogonal discriminant vectors via the\nsimultaneous diagonalization of the scatter matrices. They have been\napplied successfully in various applications.\n</p>\n<p>\nIn this paper, we present a computational and theoretical analysis of\nNLDA and OLDA.  Our main result shows that under a mild condition\nwhich holds in many applications involving high-dimensional data, NLDA\nis equivalent to OLDA. We have performed extensive experiments on\nvarious types of data and results are consistent with our theoretical\nanalysis. We further apply the regularization to OLDA. The algorithm\nis called regularized OLDA (or ROLDA for short). An efficient\nalgorithm is presented to estimate the regularization value in ROLDA.\nA comparative study on classification shows that ROLDA is very\ncompetitive with OLDA. This confirms the effectiveness of the\nregularization in ROLDA.\n</p>",
+    "authors": [
+        "Jieping Ye",
+        "Tao Xiong"
+    ],
+    "id": "ye06a",
+    "issue": 42,
+    "pages": [
+        1183,
+        1204
+    ],
+    "title": "Computational and Theoretical Analysis of  Null Space  and Orthogonal Linear Discriminant Analysis",
+    "volume": "7",
+    "year": "2006"
+}

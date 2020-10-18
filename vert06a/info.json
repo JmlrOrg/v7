@@ -1,0 +1,16 @@
+{
+    "abstract": "We determine the asymptotic behaviour of the function computed by\nsupport vector machines (SVM) and related algorithms that minimize a\nregularized empirical convex loss function in the reproducing kernel\nHilbert space of the Gaussian RBF kernel, in the situation where the\nnumber of examples tends to infinity, the bandwidth of the Gaussian\nkernel tends to 0, and the regularization parameter is held\nfixed. Non-asymptotic convergence bounds to this limit in the <i>L<sub>2</sub></i>\nsense are provided, together with upper bounds on the classification\nerror that is shown to converge to the Bayes risk, therefore proving\nthe Bayes-consistency of a variety of methods although the\nregularization term does not vanish. These results are particularly\nrelevant to the one-class SVM, for which the regularization can not\nvanish by construction, and which is shown for the first time to be a\nconsistent density level set estimator.",
+    "authors": [
+        "R{{\\'e}}gis Vert",
+        "Jean-Philippe Vert"
+    ],
+    "id": "vert06a",
+    "issue": 28,
+    "pages": [
+        817,
+        854
+    ],
+    "title": "Consistency and Convergence Rates of One-Class SVMs and Related Algorithms",
+    "volume": "7",
+    "year": "2006"
+}

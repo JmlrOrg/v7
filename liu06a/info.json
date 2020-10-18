@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper is about non-approximate acceleration of high-dimensional\nnonparametric operations such as <i>k</i> nearest neighbor classifiers. We\nattempt to exploit the fact that even if we want exact answers to\nnonparametric queries, we usually do not need to explicitly find the\ndata points close to the query, but merely need to answer questions\nabout the properties of that set of data points. This offers a small\namount of computational leeway, and we investigate how much that\nleeway can be exploited. This is applicable to many algorithms in\nnonparametric statistics, memory-based learning and kernel-based\nlearning. But for clarity, this paper concentrates on pure <i>k</i>-NN\nclassification. We introduce new ball-tree algorithms that on\nreal-world data sets give accelerations from 2-fold to 100-fold\ncompared against highly optimized traditional ball-tree-based\n<i>k</i>-NN. These results include data sets with up to 10<sup>6</sup> \ndimensions and 10<sup>5</sup> records, and demonstrate non-trivial \nspeed-ups while giving exact answers.",
+    "authors": [
+        "Ting Liu",
+        "Andrew W. Moore",
+        "Alexander Gray"
+    ],
+    "id": "liu06a",
+    "issue": 40,
+    "pages": [
+        1135,
+        1158
+    ],
+    "title": "New Algorithms for Efficient High-Dimensional Nonparametric Classification",
+    "volume": "7",
+    "year": "2006"
+}

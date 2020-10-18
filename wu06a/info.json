@@ -1,0 +1,17 @@
+{
+    "abstract": "Many kernel learning algorithms, including support vector machines,\nresult in a kernel machine, such as a kernel classifier, whose key\ncomponent is a weight vector in a feature space implicitly introduced\nby a positive definite kernel function. This weight vector is usually\nobtained by solving a convex optimization problem. Based on this fact\nwe present a direct method to build sparse kernel learning algorithms\nby adding one more constraint to the original convex optimization\nproblem, such that the sparseness of the resulting kernel machine is\nexplicitly controlled while at the same time performance is kept as\nhigh as possible. A gradient based approach is provided to solve this\nmodified optimization problem. Applying this method to the support\nvectom machine results in a concrete algorithm for building sparse \nlarge margin classifiers. These classifiers essentially find a discriminating\nsubspace that can be spanned by a small number of vectors, and in this\nsubspace, the different classes of data are linearly well\nseparated. Experimental results over several classification benchmarks\ndemonstrate the effectiveness of our approach.",
+    "authors": [
+        "Mingrui Wu",
+        "Bernhard Sch{{\\\"o}}lkopf",
+        "G{{\\\"o}}khan Bakir"
+    ],
+    "id": "wu06a",
+    "issue": 20,
+    "pages": [
+        603,
+        624
+    ],
+    "title": "A Direct Method for Building Sparse Kernel Learning Algorithms",
+    "volume": "7",
+    "year": "2006"
+}

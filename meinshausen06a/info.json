@@ -1,0 +1,15 @@
+{
+    "abstract": "Random forests were introduced as a machine learning tool \nin Breiman (2001) and have\nsince proven to be very popular and powerful for high-dimensional \nregression and classification. \nFor regression, random forests give an accurate approximation of the\nconditional mean of a response variable. \nIt is shown here that random forests provide information about\nthe full conditional distribution of the response variable, not only\nabout the conditional mean. Conditional quantiles can be inferred with\nquantile regression forests, a generalisation of random forests.\nQuantile regression forests give a non-parametric and accurate\nway of estimating conditional quantiles for high-dimensional predictor\nvariables. \nThe algorithm is shown to be consistent. Numerical examples suggest that\nthe algorithm is competitive in terms of predictive power.",
+    "authors": [
+        "Nicolai Meinshausen"
+    ],
+    "id": "meinshausen06a",
+    "issue": 34,
+    "pages": [
+        983,
+        999
+    ],
+    "title": "Quantile Regression Forests",
+    "volume": "7",
+    "year": "2006"
+}

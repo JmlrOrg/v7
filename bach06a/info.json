@@ -1,0 +1,17 @@
+{
+    "abstract": "Receiver Operating Characteristic (ROC) curves are a standard way to\ndisplay the performance of a set of binary classifiers for all\nfeasible ratios of the costs associated with false positives and\nfalse negatives. For linear classifiers, the set of classifiers is\ntypically obtained by training once, holding constant the estimated\nslope and then varying the intercept to obtain a parameterized set\nof classifiers whose performances can be plotted in the ROC plane.\nWe consider the alternative of varying the asymmetry of the cost\nfunction used for training. We show that the ROC curve obtained by\nvarying both the intercept and the asymmetry, and hence the slope,\nalways outperforms the ROC curve obtained by varying only the\nintercept. In addition, we present a path-following algorithm for\nthe support vector machine (SVM) that can compute efficiently the\nentire ROC curve, and that has the same computational complexity as\ntraining a single classifier. Finally, we provide a theoretical\nanalysis of the relationship between the asymmetric cost model\nassumed when training a classifier and the cost model assumed in\napplying the classifier. In particular, we show that the mismatch\nbetween the step function used for testing and its convex upper\nbounds, usually used for training, leads to a provable and\nquantifiable difference around extreme asymmetries.",
+    "authors": [
+        "Francis R. Bach",
+        "David Heckerman",
+        "Eric Horvitz"
+    ],
+    "id": "bach06a",
+    "issue": 62,
+    "pages": [
+        1713,
+        1741
+    ],
+    "title": "Considering Cost Asymmetry in Learning Classifiers",
+    "volume": "7",
+    "year": "2006"
+}

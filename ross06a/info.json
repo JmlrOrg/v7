@@ -1,0 +1,16 @@
+{
+    "abstract": "Many perceptual models and theories hinge on treating objects as a\ncollection of constituent parts.  When applying these approaches to\ndata, a fundamental problem arises: how can we determine what are the\nparts?\nWe attack this problem using learning, proposing a form of generative \nlatent factor model, in which each\ndata dimension is allowed to select a different factor or part as its\nexplanation.  This approach permits a range of variations that\nposit different models for the appearance of a part.  \nHere we provide the details for two such models: a\ndiscrete and a continuous one.\n  Further, we show that this latent factor model can be extended\nhierarchically to account for correlations between the appearances of\ndifferent parts.  This permits modelling of data consisting of\nmultiple categories, and learning these categories simultaneously\nwith the parts when they are unobserved.  Experiments demonstrate the\nability to learn parts-based representations, and categories, of\nfacial images and user-preference data.",
+    "authors": [
+        "David A. Ross",
+        "Richard S. Zemel"
+    ],
+    "id": "ross06a",
+    "issue": 83,
+    "pages": [
+        2369,
+        2397
+    ],
+    "title": "Learning Parts-Based Representations of Data",
+    "volume": "7",
+    "year": "2006"
+}

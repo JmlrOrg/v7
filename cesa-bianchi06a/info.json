@@ -1,0 +1,17 @@
+{
+    "abstract": "<p>\nWe study the problem of classifying data in a given taxonomy\nwhen classifications associated with multiple and/or partial paths\nare allowed.\nWe introduce a new algorithm that incrementally learns a\nlinear-threshold classifier for each node of the taxonomy.\nA hierarchical classification is obtained by evaluating\nthe trained node classifiers in a top-down fashion.\nTo evaluate classifiers in our multipath framework,\nwe define a new hierarchical loss function, the H-loss,\ncapturing the intuition that whenever a classification\nmistake is made on a node of the taxonomy, then no loss should\nbe charged for any additional mistake occurring in the subtree\nof that node.\n</p>\n<p>\nMaking no assumptions on the mechanism generating the data instances,\nand assuming a linear noise model for the labels,\nwe bound the H-loss of our on-line algorithm in terms of the H-loss\nof a reference classifier knowing the true parameters of the label-generating \nprocess.\nWe show that, in expectation, the excess cumulative H-loss grows at most\nlogarithmically in the length of the data sequence.\nFurthermore, our analysis reveals the precise dependence of the rate\nof convergence on the eigenstructure of the data each node observes.\n</p>\n<p>\nOur theoretical results are complemented by a number of experiments on texual\ncorpora. In these experiments we show that, after only one epoch of training,\nour algorithm performs much better than Perceptron-based hierarchical \nclassifiers, and reasonably close to a hierarchical support vector machine.\n</p>",
+    "authors": [
+        "Nicol{{\\'o}} Cesa-Bianchi",
+        "Claudio Gentile",
+        "Luca Zaniboni"
+    ],
+    "id": "cesa-bianchi06a",
+    "issue": 1,
+    "pages": [
+        31,
+        54
+    ],
+    "title": "Incremental Algorithms for Hierarchical Classification",
+    "volume": "7",
+    "year": "2006"
+}

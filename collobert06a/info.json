@@ -1,0 +1,18 @@
+{
+    "abstract": "We show how the concave-convex procedure can be applied\nto transductive SVMs, which traditionally require solving\na combinatorial search problem. This\nprovides for the first time a highly scalable algorithm in the nonlinear\ncase.\nDetailed experiments verify the utility of our approach. Software\nis available at <tt>http://www.kyb.tuebingen.mpg.de/bs/people/fabee/transduction.html</tt>.",
+    "authors": [
+        "Ronan Collobert",
+        "Fabian Sinz",
+        "Jason Weston",
+        "L{{\\'e}}on Bottou"
+    ],
+    "id": "collobert06a",
+    "issue": 61,
+    "pages": [
+        1687,
+        1712
+    ],
+    "title": "Large Scale Transductive SVMs",
+    "volume": "7",
+    "year": "2006"
+}

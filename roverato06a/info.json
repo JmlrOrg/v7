@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper deals with chain graph models under alternative AMP\ninterpretation. A new representative of an AMP Markov equivalence\nclass, called the <i>largest deflagged graph</i>, is proposed.\nThe representative is based on revealed internal structure of the\nAMP Markov equivalence class. More specifically, the AMP Markov\nequivalence class decomposes into finer <i>strong equivalence</i>\nclasses and there exists a distinguished strong equivalence class\namong those forming the AMP Markov equivalence class. The largest\ndeflagged graph is the largest chain graph in that distinguished\nstrong equivalence class. A composed graphical procedure to get\nthe largest deflagged graph on the basis of any AMP Markov equivalent\nchain graph is presented. In general, the largest deflagged graph\ndiffers from the AMP essential graph, which is another\nrepresentative of the AMP Markov equivalence class.",
+    "authors": [
+        "Alberto Roverato",
+        "Milan Studen&#253;"
+    ],
+    "id": "roverato06a",
+    "issue": 37,
+    "pages": [
+        1045,
+        1078
+    ],
+    "title": "A Graphical Representation of Equivalence Classes of AMP Chain Graphs",
+    "volume": "7",
+    "year": "2006"
+}

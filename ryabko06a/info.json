@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nIn this work we consider the task of relaxing the i.i.d. assumption\nin  pattern recognition (or classification), aiming to make\nexisting learning algorithms applicable to a wider range of tasks.\nPattern recognition is guessing a discrete label of\nsome  object based on a set of given examples (pairs of\nobjects and labels). We consider the case \nof deterministically defined labels. \nTraditionally, this\ntask is studied under the assumption that examples\nare independent and identically distributed. However,\nit turns out that many results of pattern recognition\n theory carry over \na  weaker assumption. Namely, under the assumption\nof conditional independence and identical distribution of objects,\nwhile the only assumption on the distribution of labels is that the\nrate of occurrence of each label should be above some positive threshold.\n</p><p>\nWe find a broad class of learning algorithms for which estimations of\nthe probability of the classification error  achieved under the \nclassical i.i.d. assumption can\nbe generalized to the similar estimates for  case of \nconditionally i.i.d. examples.\n</p>",
+    "authors": [
+        "Daniil Ryabko"
+    ],
+    "id": "ryabko06a",
+    "issue": 22,
+    "pages": [
+        645,
+        664
+    ],
+    "title": "Pattern Recognition for  Conditionally Independent Data",
+    "volume": "7",
+    "year": "2006"
+}

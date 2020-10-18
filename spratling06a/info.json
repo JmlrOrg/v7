@@ -1,0 +1,15 @@
+{
+    "abstract": "In order to perform object recognition it is necessary to learn representations\nof the underlying components of images.  Such components correspond to objects,\nobject-parts, or features.  Non-negative matrix factorisation is a generative\nmodel that has been specifically proposed for finding such meaningful\nrepresentations of image data, through the use of non-negativity constraints on\nthe factors.  This article reports on an empirical investigation of the\nperformance of non-negative matrix factorisation algorithms. It is found that\nsuch algorithms need to impose additional constraints on the sparseness of the\nfactors in order to successfully deal with occlusion. However, these constraints\ncan themselves result in these algorithms failing to identify image components\nunder certain conditions.  In contrast, a recognition model (a competitive\nlearning neural network algorithm) reliably and accurately learns\nrepresentations of elementary image features without such constraints.",
+    "authors": [
+        "Michael W. Spratling"
+    ],
+    "id": "spratling06a",
+    "issue": 27,
+    "pages": [
+        793,
+        815
+    ],
+    "title": "Learning Image Components for Object Recognition",
+    "volume": "7",
+    "year": "2006"
+}

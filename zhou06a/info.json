@@ -1,0 +1,18 @@
+{
+    "abstract": "In <i>streamwise feature selection</i>, new features are sequentially\nconsidered for addition to a predictive model.  When the space of\npotential features is large, streamwise feature selection offers\nmany advantages over traditional feature selection methods, which\nassume that all features are known in advance.  Features can be\ngenerated dynamically, focusing the search for new features on\npromising subspaces, and overfitting can be controlled by\ndynamically adjusting the threshold for adding features to the\nmodel.  In contrast to traditional forward feature selection\nalgorithms such as stepwise regression in which at each step all\npossible features are evaluated and the best one is selected,\nstreamwise feature selection only evaluates each feature once when\nit is generated. We describe information-investing and\n&#945;-investing, two adaptive complexity penalty methods for\nstreamwise feature selection which dynamically adjust the threshold\non the error reduction required for adding a new feature.  These two\nmethods give false discovery rate style guarantees against\noverfitting.  They differ from standard penalty methods such as AIC,\nBIC and RIC, which always drastically over- or under-fit in the\nlimit of infinite numbers of non-predictive features. Empirical\nresults show that streamwise regression is competitive with (on\nsmall data sets) and superior to (on large data sets) much more\ncompute-intensive feature selection methods such as stepwise\nregression, and allows feature selection on problems with millions\nof potential features.",
+    "authors": [
+        "Jing Zhou",
+        "Dean P. Foster",
+        "Robert A. Stine",
+        "Lyle H. Ungar"
+    ],
+    "id": "zhou06a",
+    "issue": 66,
+    "pages": [
+        1861,
+        1885
+    ],
+    "title": "Streamwise Feature Selection",
+    "volume": "7",
+    "year": "2006"
+}

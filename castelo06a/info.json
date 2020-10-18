@@ -1,0 +1,16 @@
+{
+    "abstract": "Learning of large-scale networks of interactions from microarray\ndata is an important and challenging problem in bioinformatics. A\nwidely used approach is to assume that the available data constitute\na random sample from a multivariate distribution belonging to a\nGaussian graphical model. As a consequence, the prime objects of\ninference are <i>full-order partial correlations</i> which are\npartial correlations between two variables given the remaining ones.\nIn the context of microarray data the number of variables exceed the\nsample size and this precludes the application of traditional\nstructure learning procedures because a sampling version of\nfull-order partial correlations does not exist. In this paper we\nconsider <i>limited-order partial correlations</i>, these are\npartial correlations computed on marginal distributions of\nmanageable size, and provide a set of rules that allow one to assess\nthe usefulness of these quantities to derive the independence\nstructure of the underlying Gaussian graphical model. Furthermore,\nwe introduce a novel structure learning procedure based on a\nquantity, obtained from limited-order partial correlations, that we\ncall the <i>non-rejection rate</i>. The applicability and usefulness of\nthe procedure are demonstrated by both simulated and real data.",
+    "authors": [
+        "Robert Castelo",
+        "Alberto Roverato"
+    ],
+    "id": "castelo06a",
+    "issue": 93,
+    "pages": [
+        2621,
+        2650
+    ],
+    "title": "A Robust Procedure For Gaussian Graphical Model Search From Microarray Data With p Larger Than n",
+    "volume": "7",
+    "year": "2006"
+}

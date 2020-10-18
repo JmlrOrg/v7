@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper proposes a general probabilistic framework for\nshape-based modeling and classification of waveform data. A\nsegmental hidden Markov model (HMM) is used to characterize\nwaveform shape and shape variation is captured by adding random\neffects to the segmental model.  The resulting probabilistic\nframework provides a basis for learning of waveform models from\ndata  as well as   parsing and recognition of new waveforms.\nExpectation-maximization (EM) algorithms are derived and\ninvestigated for fitting such models to data. In particular, the\n\"expectation conditional maximization either\" (ECME) algorithm is\nshown to provide significantly faster convergence than a standard\nEM procedure. Experimental results on two real-world data sets\ndemonstrate that the proposed approach leads to improved accuracy\nin classification and segmentation  when compared to alternatives\nsuch as Euclidean distance matching, dynamic time warping, and\nsegmental HMMs without random effects.",
+    "authors": [
+        "Seyoung Kim",
+        "Padhraic Smyth"
+    ],
+    "id": "kim06a",
+    "issue": 32,
+    "pages": [
+        945,
+        969
+    ],
+    "title": "Segmental Hidden Markov Models with Random Effects for Waveform Modeling",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We apply a type of generative modelling to the problem of blind source\nseparation in which prior knowledge about the latent source signals,\nsuch as time-varying auto-correlation and quasi-periodicity, are\nincorporated into a linear state-space model. In simulations, we show\nthat in terms of signal-to-error ratio, the sources are inferred more\naccurately as a result of the inclusion of strong prior knowledge.  We\nexplore different schemes of maximum-likelihood optimization for the\npurpose of learning the model parameters. The Expectation Maximization\nalgorithm, which is often considered the standard optimization method\nin this context, results in slow convergence when the noise variance\nis small. In such scenarios, quasi-Newton optimization yields\nsubstantial improvements in a range of signal to noise ratios. We\nanalyze the performance of the methods on convolutive mixtures of\nspeech signals.",
+    "authors": [
+        "Rasmus Kongsgaard Olsson",
+        "Lars Kai Hansen"
+    ],
+    "id": "olsson06a",
+    "issue": 91,
+    "pages": [
+        2585,
+        2602
+    ],
+    "title": "Linear State-Space Models for Blind Source Separation",
+    "volume": "7",
+    "year": "2006"
+}

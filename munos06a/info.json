@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nWe study a variance reduction technique for Monte Carlo estimation\nof functionals in Markov chains. The method is based on designing\n<i>sequential control variates</i> using successive approximations\nof the function of interest <i>V</i>. Regular Monte Carlo estimates have\na variance of <i>O(1/N)</i>, where <i>N</i> is the number of sample trajectories\nof the Markov chain. Here, we obtain a geometric variance reduction\n<i>O(&#961;<sup>N</sup>)</i> (with &#961;<1) up to a threshold that depends on\nthe approximation error <i>V-AV</i>, where <i>A</i> is an <i>approximation\noperator</i> linear in the values. Thus, if <i>V</i> belongs to the right\napproximation space (i.e. <i>AV=V</i>), the variance decreases geometrically\nto zero.\n</p><p>\nAn immediate application is value function estimation in Markov chains,\nwhich may be used for policy evaluation in a policy iteration algorithm\nfor solving Markov Decision Processes. \n</p><p>\nAnother important domain, for which variance reduction is highly needed,\nis gradient estimation, that is computing the sensitivity <i>&#8706;<sub>&#945;</sub>V</i>\nof the performance measure <i>V</i> with respect to some parameter &#945;\nof the transition probabilities. For example, in policy parametric\noptimization, computing an estimate of the policy gradient is required\nto perform a gradient optimization method.\n</p><p>\nWe show that, using two approximations for the <i>value function</i>\nand the <i>gradient</i>, a geometric variance reduction is also achieved,\nup to a threshold that depends on the approximation errors of both\nof those representations.\n</p>",
+    "authors": [
+        "R{{\\'e}}mi Munos"
+    ],
+    "id": "munos06a",
+    "issue": 13,
+    "pages": [
+        413,
+        427
+    ],
+    "title": "Geometric Variance Reduction in Markov Chains: Application to Value Function and Gradient Estimation",
+    "volume": "7",
+    "year": "2006"
+}

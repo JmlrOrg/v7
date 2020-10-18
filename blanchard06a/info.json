@@ -1,0 +1,19 @@
+{
+    "abstract": "Finding non-Gaussian components of high-dimensional data is an\nimportant preprocessing step for efficient information processing.\nThis article proposes a new <i>linear</i> method to identify the\n\"non-Gaussian subspace\" within a very general semi-parametric\nframework.  Our proposed method, called NGCA (non-Gaussian component\nanalysis), is based on a linear operator which, to any arbitrary\nnonlinear (smooth) function, associates a vector belonging to the\nlow dimensional non-Gaussian target subspace, up to an estimation\nerror.  By applying this operator to a family of different nonlinear\nfunctions, one obtains a family of different vectors lying in a\nvicinity of the target space. As a final step, the target space\nitself is estimated by applying PCA to this family of vectors.  We\nshow that this procedure is consistent in the sense that the\nestimaton error tends to zero at a parametric rate, uniformly over\nthe family, Numerical examples demonstrate the usefulness of our\nmethod.",
+    "authors": [
+        "Gilles Blanchard",
+        "Motoaki Kawanabe",
+        "Masashi Sugiyama",
+        "Vladimir Spokoiny",
+        "Klaus-Robert M{{\\\"u}}ller"
+    ],
+    "id": "blanchard06a",
+    "issue": 8,
+    "pages": [
+        247,
+        282
+    ],
+    "title": "In Search of Non-Gaussian Components of a High-Dimensional Distribution",
+    "volume": "7",
+    "year": "2006"
+}

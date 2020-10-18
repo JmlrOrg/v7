@@ -1,0 +1,18 @@
+{
+    "abstract": "We describe anytime search procedures that (1) find disjoint subsets\nof recorded variables for which the members of each subset are\nd-separated by a single common unrecorded cause, if such exists; (2)\nreturn information about the causal relations among the latent factors\nso identified. We prove the procedure is point-wise consistent\nassuming (a) the causal relations can be represented by a directed\nacyclic graph (DAG) satisfying the Markov Assumption and the\nFaithfulness Assumption; (b) unrecorded variables are not caused by\nrecorded variables; and (c) dependencies are linear. We compare the procedure with\nstandard approaches over a variety of simulated structures and sample sizes, and\nillustrate its practical value with brief studies of social science\ndata sets. Finally, we consider generalizations for non-linear\nsystems.",
+    "authors": [
+        "Ricardo Silva",
+        "Richard Scheine",
+        "Clark Glymour",
+        "Peter Spirtes"
+    ],
+    "id": "silva06a",
+    "issue": 7,
+    "pages": [
+        191,
+        246
+    ],
+    "title": "Learning the Structure of Linear Latent Variable Models",
+    "volume": "7",
+    "year": "2006"
+}

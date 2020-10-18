@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nA classical approach in multi-class pattern classification is the\nfollowing. Estimate the probability distributions that generated the\nobservations for each label class, and then label new instances by\napplying the Bayes classifier to the estimated distributions.  That\napproach provides more useful information than just a class label; it\nalso provides estimates of the conditional distribution of class\nlabels, in situations where there is class overlap.\n</p><p>\nWe would like to know whether it is harder to build accurate\nclassifiers via this approach, than by techniques that may process\nall data with distinct labels together. In this paper we make\nthat question precise by considering it in the context of PAC\nlearnability. We propose two restrictions on the PAC learning\nframework that are intended to correspond with the above approach,\nand consider their relationship with standard PAC learning.\nOur main restriction of interest leads to some interesting algorithms\nthat show that the restriction is not stronger (more restrictive)\nthan various other well-known restrictions on PAC learning.\nAn alternative slightly milder restriction turns out to be almost\nequivalent to unrestricted PAC learning.\n</p>",
+    "authors": [
+        "Paul W. Goldberg"
+    ],
+    "id": "goldberg06a",
+    "issue": 9,
+    "pages": [
+        283,
+        306
+    ],
+    "title": "Some Discriminant-Based PAC Algorithms",
+    "volume": "7",
+    "year": "2006"
+}

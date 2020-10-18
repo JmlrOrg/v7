@@ -1,0 +1,16 @@
+{
+    "abstract": "We study some stability properties of algorithms which minimize\n(or almost-minimize) empirical error over Donsker classes of\nfunctions. We show that, as the number <i>n</i> of samples grows, the\n<i>L</i><sub>2</sub>-diameter of the set of almost-minimizers of empirical error\nwith tolerance <i>&#958;</i>(<i>n</i>)=<i>o</i>(<i>n</i><sup>-1/2</sup>) \nconverges to zero in\nprobability. Hence, even in the case of multiple minimizers of\nexpected error, as <i>n</i> increases it becomes less and less likely that\nadding a sample (or a number of samples) to the training set will\nresult in a large jump to a new hypothesis. Moreover, under some\nassumptions on the entropy of the class, along with an assumption\nof Komlos-Major-Tusnady type, we derive a power rate of decay for\nthe diameter of almost-minimizers. This rate, through an\napplication of a uniform ratio limit inequality, is shown to\ngovern the closeness of the expected errors of the\nalmost-minimizers. In fact, under the above assumptions, the\nexpected errors of almost-minimizers become closer with a rate strictly\nfaster than <i>n</i><sup>-1/2</sup>.",
+    "authors": [
+        "Andrea Caponnetto",
+        "Alexander Rakhlin"
+    ],
+    "id": "caponnetto06a",
+    "issue": 90,
+    "pages": [
+        2565,
+        2583
+    ],
+    "title": "Stability Properties of Empirical Risk Minimization over Donsker Classes",
+    "volume": "7",
+    "year": "2006"
+}

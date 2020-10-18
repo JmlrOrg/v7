@@ -1,0 +1,16 @@
+{
+    "abstract": "We discuss the problem of learning to rank labels from a real valued\nfeedback associated with each label. We cast the feedback as a\npreferences graph where the nodes of the graph are the labels and\nedges express preferences over labels. We tackle the learning problem\nby defining a loss function for comparing a predicted graph with a\nfeedback graph. This loss is materialized by decomposing the feedback\ngraph into bipartite sub-graphs. We then adopt the maximum-margin\nframework which leads to a quadratic optimization problem with linear\nconstraints. While the size of the problem grows quadratically with\nthe number of the nodes in the feedback graph, we derive a problem of\na significantly smaller size and prove that it attains the same\nminimum. We then describe an efficient algorithm, called SOPOPO, for\nsolving the reduced problem by employing a soft projection onto the\npolyhedron defined by a reduced set of constraints. We also describe\nand analyze a wrapper procedure for batch learning when multiple\ngraphs are provided for training. We conclude with a set of\nexperiments which show significant improvements in run time over a\nstate of the art interior-point algorithm.",
+    "authors": [
+        "Shai Shalev-Shwartz",
+        "Yoram Singer"
+    ],
+    "id": "shalev-shwartz06a",
+    "issue": 57,
+    "pages": [
+        1567,
+        1599
+    ],
+    "title": "Efficient Learning of Label Ranking by Soft Projections onto Polyhedra",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We consider the problem of learning a hypergraph using edge-detecting queries.\nIn this model, the learner may query whether a set of vertices induces an \nedge of the hidden hypergraph or not.\nWe show that an <i>r</i>-uniform hypergraph with <i>m</i> edges and <i>n</i> \nvertices is learnable with <i>O</i>(2<sup>4<i>r</i></sup><i>m</i> &#183; \n<i>poly</i>(<i>r</i>,log<i>n</i>)) queries with high probability.\nThe queries can be made in <i>O</i>(min(2<sup><i>r</i></sup> \n(log <i>m+r</i>)<sup>2</sup>, (log <i>m+r</i>)<sup>3</sup>)) rounds.\nWe also give an algorithm that learns an almost uniform hypergraph of \ndimension <i>r</i> using <i>O</i>(2<sup><i>O</i>((1+&#916;/2)r)</sup> &#183; \n<i>m</i><sup>1+&#916;/2</sup> &#183; <i>poly</i>(log <i>n</i>)) \nqueries with high probability,\nwhere &#916; is the difference between the maximum and the minimum edge \nsizes.  This upper bound matches our lower bound of \n&#937;((<i>m</i>/(1+&#916;/2))<sup>1+&#916;/2</sup>) for this \nclass of hypergraphs in terms of dependence on <i>m</i>.\nThe queries can also be made in \n<i>O</i>((1+&#916;) &#183; min(2<sup><i>r</i></sup> (log <i>m+r</i>)<sup>2</sup>, \n(log <i>m+r</i>)<sup>3</sup>)) rounds.",
+    "authors": [
+        "Dana Angluin",
+        "Jiang Chen"
+    ],
+    "id": "angluin06a",
+    "issue": 78,
+    "pages": [
+        2215,
+        2236
+    ],
+    "title": "Learning a Hidden Hypergraph",
+    "volume": "7",
+    "year": "2006"
+}

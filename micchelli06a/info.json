@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper we investigate conditions on the features of a\ncontinuous kernel so that it may approximate an arbitrary continuous\ntarget function uniformly on any compact subset of the input space.\nA number of concrete examples are given of kernels with this\nuniversal approximating property.",
+    "authors": [
+        "Charles A. Micchelli",
+        "Yuesheng Xu",
+        "Haizhang Zhang"
+    ],
+    "id": "micchelli06a",
+    "issue": 94,
+    "pages": [
+        2651,
+        2667
+    ],
+    "title": "Universal Kernels",
+    "volume": "7",
+    "year": "2006"
+}

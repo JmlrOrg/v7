@@ -1,0 +1,18 @@
+{
+    "abstract": "We describe polynomial--time algorithms\nthat produce approximate solutions with guaranteed\naccuracy for a class of QP problems that are used in the\ndesign of support vector machine classifiers.\nThese algorithms employ a two--stage process where the\nfirst stage produces an approximate\nsolution to a dual QP problem and the second stage maps\nthis approximate dual solution to an approximate primal solution.\nFor the second stage we describe an <i>O</i>(<i>n</i> log <i>n</i>)\nalgorithm that maps an approximate dual solution with accuracy\n<i>(2(2K<sub>m</sub>)<sup>1/2</sup>+8(&#955;)<sup>1/2</sup>)<sup>-2</sup> \n&#955; &#949;<sub>p</sub><sup>2</sup></i>\nto an approximate primal solution with\naccuracy <i>&#949;<sub>p</sub></i>\nwhere <i>n</i> is the number of data samples,\n<i>K<sub>n</sub></i> is the maximum kernel value over the data and\n<i>&#955; > 0</i> is the SVM regularization parameter.\nFor the first stage we present new results\nfor <i>decomposition</i> algorithms and\ndescribe new decomposition algorithms with guaranteed\naccuracy and run time.\nIn particular, for <i>&#964;-rate certifying</i> decomposition algorithms\nwe establish the optimality of <i>&#964; = 1/(n-1)</i>.\nIn addition\nwe extend the recent <i>&#964; = 1/(n-1)</i> algorithm of Simon\n(2004) to form two new <i>composite</i> algorithms\nthat also achieve the <i>&#964; = 1/(n-1)</i> iteration bound\nof List and Simon (2005), but yield faster run times in practice.\nWe also exploit the &#964;-rate certifying property of these\nalgorithms to produce new stopping rules that are computationally\nefficient and that guarantee a specified accuracy for the\napproximate dual solution.\nFurthermore,\nfor the dual QP problem corresponding to the standard classification\nproblem we describe operational conditions for which the Simon and composite\nalgorithms possess an upper bound of <i>O(n)</i> on the number of iterations.\nFor this same problem we also describe general conditions for which\na matching lower bound exists\nfor <i>any</i> decomposition algorithm that uses working sets of size 2.\nFor the Simon and composite algorithms we also establish an <i>O(n<sup>2</sup>)</i>\nbound on the overall run time for the first stage.\nCombining the first and second stages gives\nan overall run time of <i>O(n<sup>2</sup>(c<sub>k</sub> + 1))</i>\nwhere <i>c<sub>k</sub></i> is an upper bound on the computation to perform\na kernel evaluation.  Pseudocode is presented\nfor a complete algorithm that inputs an accuracy <i>&#949;<sub>p</sub></i>\nand produces an approximate solution that satisfies\nthis accuracy in low order polynomial time.\nExperiments are included to illustrate the new stopping rules and\nto compare the Simon and composite decomposition algorithms.",
+    "authors": [
+        "Don Hush",
+        "Patrick Kelly",
+        "Clint Scovel",
+        "Ingo Steinwart"
+    ],
+    "id": "hush06a",
+    "issue": 25,
+    "pages": [
+        733,
+        769
+    ],
+    "title": "QP Algorithms with Guaranteed Accuracy and Run Time for Support Vector Machines",
+    "volume": "7",
+    "year": "2006"
+}

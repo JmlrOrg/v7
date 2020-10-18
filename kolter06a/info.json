@@ -1,0 +1,16 @@
+{
+    "abstract": "We describe the use of machine learning and data mining to\ndetect and classify malicious executables as they appear in the wild.\nWe gathered 1,971 benign and 1,651 malicious executables and encoded\neach as a training example using <i>n</i>-grams of byte codes as features.\nSuch processing resulted in more than 255 million distinct <i>n</i>-grams.\nAfter selecting the most relevant <i>n</i>-grams for prediction,\nwe evaluated a variety of inductive methods, including naive Bayes,\ndecision trees, support vector machines, and boosting.\nUltimately, boosted decision trees outperformed other methods\nwith an area under the <small>ROC</small> curve of 0.996.\nResults suggest that our methodology will scale to larger collections\nof executables.\nWe also evaluated how well the methods classified executables based\non the function of their payload, such as opening a backdoor\nand mass-mailing.\nAreas under the <small>ROC</small> curve for detecting payload function\nwere in the neighborhood of 0.9, which were smaller than those for\nthe detection task.\nHowever, we attribute this drop in performance to fewer training\nexamples and to the challenge of obtaining properly labeled examples,\nrather than to a failing of the methodology or to some inherent difficulty\nof the classification task.\nFinally, we applied detectors to 291 malicious executables\ndiscovered after we gathered our original collection,\nand boosted decision trees achieved a true-positive rate of 0.98 for\na desired false-positive rate of 0.05.\nThis result is particularly important, for it suggests that our\nmethodology could be used as the basis for an operational system\nfor detecting previously undiscovered malicious executables.",
+    "authors": [
+        "J. Zico Kolter",
+        "Marcus A. Maloof"
+    ],
+    "id": "kolter06a",
+    "issue": 98,
+    "pages": [
+        2721,
+        2744
+    ],
+    "title": "Learning to Detect and Classify Malicious Executables in the Wild",
+    "volume": "7",
+    "year": "2006"
+}

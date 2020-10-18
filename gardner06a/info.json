@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper describes an application of one-class support vector\nmachine (SVM) novelty detection for detecting seizures in humans. Our\ntechnique maps intracranial electroencephalogram (EEG) time series\ninto corresponding novelty sequences by classifying short-time,\nenergy-based statistics computed from one-second windows of data. We\ntrain a classifier on epochs of interictal (normal) EEG. During ictal\n(seizure) epochs of EEG, seizure activity induces distributional\nchanges in feature space that increase the empirical outlier\nfraction. A hypothesis test determines when the parameter change\ndiffers significantly from its nominal value, signaling a seizure\ndetection event.  Outputs are gated in a .one-shot. manner using\npersistence to reduce the false alarm rate of the system. The detector\nwas validated using leave-one-out cross-validation (LOO-CV) on a\nsample of 41 interictal and 29 ictal epochs, and achieved 97.1%\nsensitivity, a mean detection latency of -7.58 seconds, and an\nasymptotic false positive rate (FPR) of 1.56 false positives per hour\n(Fp/hr).  These results are better than those obtained from a novelty\ndetection technique based on Mahalanobis distance outlier detection,\nand comparable to the performance of a supervised learning technique\nused in experimental implantable devices (Echauz et al., 2001). The\nnovelty detection paradigm overcomes three significant limitations of\ncompeting methods: the need to collect seizure data, precisely mark\nseizure onset and offset times, and perform patient-specific parameter\ntuning for detector training.",
+    "authors": [
+        "Andrew B. Gardner",
+        "Abba M. Krieger",
+        "George Vachtsevanos",
+        "Brian Litt"
+    ],
+    "id": "gardner06a",
+    "issue": 36,
+    "pages": [
+        1025,
+        1044
+    ],
+    "title": "One-Class Novelty Detection for Seizure Analysis from Intracranial EEG",
+    "volume": "7",
+    "year": "2006"
+}

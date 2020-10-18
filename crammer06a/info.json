@@ -1,0 +1,19 @@
+{
+    "abstract": "We present a family of margin based online learning algorithms for various\nprediction tasks. In particular we derive and analyze algorithms for binary and\nmulticlass categorization, regression, uniclass prediction and sequence\nprediction. \nThe update steps of our different algorithms are all based on analytical\nsolutions to simple constrained optimization problems.  This unified view\nallows us to prove worst-case loss bounds for the different algorithms and for\nthe various decision problems based on a single lemma. Our bounds on the\ncumulative loss of the algorithms are relative to the smallest loss that can be\nattained by any fixed hypothesis, and as such are applicable to both realizable\nand unrealizable settings. We demonstrate some of the merits of the proposed\nalgorithms in a series of experiments with synthetic and real data sets.",
+    "authors": [
+        "Koby Crammer",
+        "Ofer Dekel",
+        "Joseph Keshet",
+        "Shai Shalev-Shwartz",
+        "Yoram Singer"
+    ],
+    "id": "crammer06a",
+    "issue": 18,
+    "pages": [
+        551,
+        585
+    ],
+    "title": "Online Passive-Aggressive Algorithms",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper introduces a learning method for two-layer feedforward\nneural networks based on sensitivity analysis, which uses a linear\ntraining algorithm for each of the two layers. First, random values\nare assigned to the outputs of the first layer; later, these initial\nvalues are updated based on sensitivity formulas, which use the\nweights in each of the layers; the process is repeated until\nconvergence. Since these weights are learnt solving a linear system\nof equations, there is an important saving in computational time.\nThe method also gives the local sensitivities of the least square\nerrors with respect to input and output data, with no extra\ncomputational cost, because the necessary information becomes\navailable without extra calculations. This method, called the\nSensitivity-Based Linear Learning Method, can also be used to\nprovide an initial set of weights, which significantly improves the\nbehavior of other learning algorithms. The theoretical basis for the\nmethod is given and its performance is illustrated by its\napplication to several examples in which it is compared with several\nlearning algorithms and well known data sets. The results have shown\na learning speed generally faster than other existing methods. In\naddition, it can be used as an initialization tool for other well\nknown methods with significant improvements.",
+    "authors": [
+        "Enrique Castillo",
+        "Bertha Guijarro-Berdi{{\\~n}}as",
+        "Oscar Fontenla-Romero",
+        "Amparo Alonso-Betanzos"
+    ],
+    "id": "castillo06a",
+    "issue": 41,
+    "pages": [
+        1159,
+        1182
+    ],
+    "title": "A Very Fast Learning Method for Neural Networks Based on Sensitivity Analysis",
+    "volume": "7",
+    "year": "2006"
+}

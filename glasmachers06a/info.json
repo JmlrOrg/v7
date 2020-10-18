@@ -1,0 +1,16 @@
+{
+    "abstract": "Support vector machines are trained by solving constrained\nquadratic\noptimization problems.\nThis is usually done with an iterative decomposition algorithm\noperating on a small working set of variables in every iteration.\nThe training time strongly depends on the selection of these\nvariables.  We propose the maximum-gain working set selection\nalgorithm for large scale quadratic programming. It is based on the\nidea to greedily maximize the progress in each single iteration. The\nalgorithm takes second order information from cached kernel matrix\nentries into account. We prove the convergence to an optimal\nsolution of a variant termed hybrid maximum-gain working set\nselection.  This method is empirically compared to the prominent\nmost violating pair selection and the latest algorithm using second\norder information. For large training sets our new selection scheme\nis significantly faster.",
+    "authors": [
+        "Tobias Glasmachers",
+        "Christian Igel"
+    ],
+    "id": "glasmachers06a",
+    "issue": 52,
+    "pages": [
+        1437,
+        1466
+    ],
+    "title": "Maximum-Gain Working Set Selection for SVMs",
+    "volume": "7",
+    "year": "2006"
+}

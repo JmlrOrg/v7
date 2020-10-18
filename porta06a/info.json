@@ -1,0 +1,18 @@
+{
+    "abstract": "We propose a novel approach to optimize Partially Observable Markov\nDecisions Processes (POMDPs) defined on continuous spaces.  To date,\nmost algorithms for model-based POMDPs are restricted to discrete\nstates, actions, and observations, but many real-world problems such\nas, for instance, robot navigation, are naturally defined on\ncontinuous spaces. In this work, we demonstrate that the value\nfunction for continuous POMDPs is convex in the beliefs over\ncontinuous state spaces, and piecewise-linear convex for the\nparticular case of discrete observations and actions but still\ncontinuous states. We also demonstrate that continuous Bellman backups\nare contracting and isotonic ensuring the monotonic convergence of\nvalue-iteration algorithms. Relying on those properties, we extend the\nalgorithm, originally developed for discrete POMDPs, to work in\ncontinuous state spaces by representing the observation, transition,\nand reward models using Gaussian mixtures, and the beliefs using\nGaussian mixtures or particle sets.  With these representations, the\nintegrals that appear in the Bellman backup can be computed in closed\nform and, therefore, the algorithm is computationally\nfeasible. Finally, we further extend to deal with continuous action\nand observation sets by designing effective sampling approaches.",
+    "authors": [
+        "Josep M. Porta",
+        "Nikos Vlassis",
+        "Matthijs T.J. Spaan",
+        "Pascal Poupart"
+    ],
+    "id": "porta06a",
+    "issue": 82,
+    "pages": [
+        2329,
+        2367
+    ],
+    "title": "Point-Based Value Iteration for Continuous POMDPs",
+    "volume": "7",
+    "year": "2006"
+}

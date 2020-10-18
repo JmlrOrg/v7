@@ -1,0 +1,16 @@
+{
+    "abstract": "The fields of machine learning and mathematical\nprogramming are increasingly intertwined.  Optimization problems\nlie at the heart of most machine learning approaches. The Special\nTopic on Machine Learning and Large Scale Optimization examines\nthis interplay. Machine learning researchers have embraced the\nadvances in mathematical programming allowing new types of models\nto be pursued.  The special topic includes models using quadratic,\nlinear, second-order cone, semi-definite, and semi-infinite\nprograms. We observe that the qualities of good optimization\nalgorithms from the machine learning and optimization perspectives\ncan be quite different. Mathematical programming puts a premium on\naccuracy, speed, and robustness.   Since generalization is the\nbottom line in machine learning and training is normally done\noff-line, accuracy and small speed improvements are of little\nconcern in machine learning.  Machine learning prefers simpler\nalgorithms that work in reasonable computational time for\nspecific classes of problems. Reducing machine learning problems\nto well-explored mathematical programming classes with robust\ngeneral purpose optimization codes allows machine learning\nresearchers to rapidly develop new techniques. In turn, machine\nlearning presents new challenges to mathematical programming. The\nspecial issue include papers from two primary themes:  novel\nmachine learning models and novel optimization approaches for\nexisting models. Many papers blend both themes, making small\nchanges in the underlying core mathematical program that enable\nthe develop of effective new algorithms.",
+    "authors": [
+        "Kristin P. Bennett",
+        "Emilio Parrado-Hern{{\\'a}}ndez"
+    ],
+    "id": "MLOPT-intro06a",
+    "issue": 45,
+    "pages": [
+        1265,
+        1281
+    ],
+    "title": "The Interplay of Optimization and Machine Learning Research",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\n  Fast and frugal heuristics are well studied models of bounded rationality.\n  Psychological research has proposed the take-the-best heuristic as a\n  successful strategy in decision making with limited resources.\n  Take-the-best searches for a sufficiently good ordering of cues (or\n  features) in a task where objects are to be compared lexicographically.  We\n  investigate the computational complexity of finding optimal cue permutations\n  for lexicographic strategies and prove that the problem is NP-complete.  It\n  follows that no efficient (that is, polynomial-time) algorithm computes\n  optimal solutions, unless P=NP. We further analyze the complexity of\n  approximating optimal cue permutations for lexicographic strategies.  We\n  show that there is no efficient algorithm that approximates the optimum to\n  within any constant factor, unless P=NP.\n</p>\n<p>\n  The results have implications for the complexity of learning lexicographic\n  strategies from examples. They show that learning them in polynomial time\n  within the model of agnostic probably approximately correct (PAC) learning\n  is impossible, unless RP=NP.  We further consider greedy approaches for\n  building lexicographic strategies and determine upper and lower bounds for\n  the performance ratio of simple algorithms.  Moreover, we present a greedy\n  algorithm that performs provably better than take-the-best.  Tight bounds on\n  the sample complexity for learning lexicographic strategies are also given\n  in this article.\n</p>",
+    "authors": [
+        "Michael Schmitt",
+        "Laura Martignon"
+    ],
+    "id": "schmitt06a",
+    "issue": 2,
+    "pages": [
+        55,
+        83
+    ],
+    "title": "On the Complexity of Learning Lexicographic Strategies",
+    "volume": "7",
+    "year": "2006"
+}

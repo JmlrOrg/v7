@@ -1,0 +1,16 @@
+{
+    "abstract": "Given a probability measure <i>P</i> and a reference measure\n<i>&#956;</i>, one is often interested in the minimum <i>&#956;</i>-measure set\nwith <i>P</i>-measure at least <i>&#945;</i>.  Minimum volume sets of this\ntype summarize the regions of greatest probability mass of <i>P</i>,\nand are useful for detecting anomalies and constructing confidence\nregions.  This paper addresses the problem of estimating minimum\nvolume sets based on independent samples distributed according to\n<i>P</i>.  Other than these samples, no other information is available\nregarding <i>P</i>, but the reference measure <i>&#956;</i> is assumed to be\nknown. We introduce rules for estimating minimum volume sets that\nparallel the empirical risk minimization and structural risk\nminimization principles in classification. As in classification, we\nshow that the performances of our estimators are controlled by the\nrate of uniform convergence of empirical to true probabilities over\nthe class from which the estimator is drawn. Thus we obtain finite\nsample size performance bounds in terms of VC dimension and related\nquantities. We also demonstrate strong universal consistency, an\noracle inequality, and rates of convergence. The proposed estimators\nare illustrated with histogram and decision tree set estimation\nrules.",
+    "authors": [
+        "Clayton D. Scott",
+        "Robert D. Nowak"
+    ],
+    "id": "scott06a",
+    "issue": 23,
+    "pages": [
+        665,
+        704
+    ],
+    "title": "Learning Minimum Volume Sets",
+    "volume": "7",
+    "year": "2006"
+}

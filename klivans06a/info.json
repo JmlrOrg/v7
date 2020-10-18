@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWe consider two well-studied problems regarding attribute\nefficient learning:  learning\ndecision lists and learning parity functions.\nFirst, we give an algorithm for learning decision\nlists of length <i>k</i> over <i>n</i> variables using \n<i>2<sup>&#213;(k<sup>1/3</sup>)</sup> log n</i> examples and time \n<i>n<sup>&#213;(k<sup>1/3</sup>)</sup></i>. This is the first\nalgorithm for learning decision lists that has both subexponential\nsample complexity and subexponential running time in the relevant\nparameters.  Our approach is based on\na new construction of low degree, low weight polynomial threshold\nfunctions for decision lists. For a wide range of parameters our\nconstruction matches a lower bound due to Beigel for \ndecision lists and gives an essentially optimal tradeoff between\npolynomial threshold function degree and weight.  \n</p><p>\nSecond, we give an\nalgorithm for learning an unknown parity function on <i>k</i> out of <i>n</i>\nvariables using <i>O(n<sup>1-1/k</sup>)</i> examples in poly<i>(n)</i> time. For\n<i>k=o(</i>log <i>n)</i> this yields the first polynomial time algorithm\nfor learning parity on a superconstant number of variables with\nsublinear sample complexity. We also give a simple algorithm\nfor learning an unknown length-<i>k</i> parity using <i>O(k</i> log <i>n)</i>\nexamples in <i>n<sup>k/2</sup></i> time, which \nimproves on the naive <i>n<sup>k</sup></i> time\nbound of exhaustive search.\n</p>",
+    "authors": [
+        "Adam R. Klivans",
+        "Rocco A. Servedio"
+    ],
+    "id": "klivans06a",
+    "issue": 19,
+    "pages": [
+        587,
+        602
+    ],
+    "title": "Toward Attribute Efficient Learning of Decision Lists and Parities",
+    "volume": "7",
+    "year": "2006"
+}

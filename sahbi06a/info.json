@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWe introduce a computational design for pattern detection\nbased on a tree-structured network of support vector machines (SVMs).\nAn SVM is associated with each cell in a recursive partitioning of the\nspace of patterns (hypotheses) into increasingly finer subsets.  The\nhierarchy is traversed coarse-to-fine and each chain of positive\nresponses from the root to a leaf constitutes a detection.  Our\nobjective is to design and build a network which balances overall\nerror and computation.\n</p><p>\nInitially, SVMs are constructed for each cell with no\nconstraints.  This \"free network\" is then perturbed, cell by cell,\ninto another network, which is \"graded\" in two ways: first, the\nnumber of support vectors of each SVM is reduced (by clustering) in\norder to adjust to a pre-determined, increasing function of cell\ndepth; second, the decision boundaries are shifted to preserve all\npositive responses from the original set of training data.  The limits\non the numbers of clusters (virtual support vectors) result from\nminimizing the mean computational cost of collecting all detections\nsubject to a bound on the expected number of false positives.\n</p><p>\nWhen applied to detecting faces in cluttered scenes, the\npatterns correspond to poses and the free network is already faster\nand more accurate than applying a single pose-specific SVM many times.\nThe graded network promotes very rapid processing of background\nregions while maintaining the discriminatory power of the free\nnetwork.\n</p>",
+    "authors": [
+        "Hichem Sahbi",
+        "Donald Geman"
+    ],
+    "id": "sahbi06a",
+    "issue": 74,
+    "pages": [
+        2087,
+        2123
+    ],
+    "title": "A Hierarchy of Support Vector Machines for Pattern Detection",
+    "volume": "7",
+    "year": "2006"
+}

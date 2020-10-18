@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWe propose Sparse Boosting (the Sparse<i>L<sub>2</sub></i>Boost algorithm), \na variant on  \nboosting with the squared error loss. Sparse<i>L<sub>2</sub></i>Boost yields sparser\nsolutions than the previously proposed <i>L<sub>2</sub></i>Boosting by \nminimizing some penalized <i>L<sub>2</sub></i>-loss functions, the \n<i>FPE</i> model selection criteria, through small-step gradient descent. \nAlthough boosting \nmay give already relatively sparse solutions, for example corresponding to the\nsoft-thresholding estimator in orthogonal linear models, there is sometimes\na desire for more sparseness to increase prediction accuracy and ability\nfor better variable selection: such goals can be achieved with\nSparse<i>L<sub>2</sub></i>Boost.   \n</p>\n<p>\nWe prove an equivalence of Sparse<i>L<sub>2</sub></i>Boost to \nBreiman's nonnegative garrote\nestimator for orthogonal linear models and demonstrate the generic\nnature of Sparse<i>L<sub>2</sub></i>Boost for nonparametric interaction modeling. \nFor an automatic selection of the tuning parameter\nin Sparse<i>L<sub>2</sub></i>Boost we propose to employ the \ngMDL model selection criterion \nwhich can also be used for early stopping of <i>L<sub>2</sub></i>Boosting. \nConsequently, we can select between Sparse<i>L<sub>2</sub></i>Boost \nand <i>L<sub>2</sub></i>Boosting by comparing their gMDL scores.\n</p>",
+    "authors": [
+        "Peter B{{\\\"u}}hlmann",
+        "Bin Yu"
+    ],
+    "id": "buehlmann06a",
+    "issue": 35,
+    "pages": [
+        1001,
+        1024
+    ],
+    "title": "Sparse Boosting",
+    "volume": "7",
+    "year": "2006"
+}

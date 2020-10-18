@@ -1,0 +1,15 @@
+{
+    "abstract": "In this paper we prove the optimality of an aggregation\nprocedure. We prove lower bounds for aggregation of model\nselection type of <i>M</i> density estimators for the Kullback-Leibler\ndivergence (KL), the Hellinger's distance and the <i>L<sub>1</sub></i>-distance.\nThe lower bound, with respect to the KL distance, can be achieved\nby the on-line type estimate suggested, among others, by\nYang (2000a). Combining these results, we state that log\n<i>M/n</i> is an optimal rate of aggregation in the sense of\nTsybakov (2003), where <i>n</i> is the sample size.",
+    "authors": [
+        "Guillaume Lecu{{\\'e}}"
+    ],
+    "id": "lecue06a",
+    "issue": 33,
+    "pages": [
+        971,
+        981
+    ],
+    "title": "Lower Bounds and Aggregation in Density Estimation",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "We propose a novel second order cone programming formulation for\ndesigning robust classifiers which can handle uncertainty in\nobservations.  Similar formulations are also derived for designing\nregression functions which are robust to uncertainties in the\nregression setting. The proposed formulations are independent of the\nunderlying distribution, requiring only the existence of second\norder moments. These formulations are then specialized to the case\nof missing values in observations for both classification and\nregression problems.  Experiments show that the proposed\nformulations outperform imputation.",
+    "authors": [
+        "Pannagadatta K. Shivaswamy",
+        "Chiranjib Bhattacharyya",
+        "Alexander J. Smola"
+    ],
+    "id": "shivaswamy06a",
+    "issue": 46,
+    "pages": [
+        1283,
+        1314
+    ],
+    "title": "Second Order Cone Programming Approaches for Handling Missing and Uncertain Data",
+    "volume": "7",
+    "year": "2006"
+}

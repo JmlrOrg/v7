@@ -1,0 +1,15 @@
+{
+    "abstract": "Similarity of edge labeled graphs is considered in the sense of minimum \nsquared distance between corresponding values. Vertex correspondences are \nestablished by isomorphisms if both graphs are of equal size and by \nsubisomorphisms if one graph has fewer vertices than the other. Best fit \nisomorphisms and subisomorphisms amount to solutions of quadratic \nassignment problems and are computed exactly as well as approximately\nby minimum cost flow, linear assignment relaxations and related graph \nalgorithms.",
+    "authors": [
+        "Thomas K&#228;mpke"
+    ],
+    "id": "kaempke06a",
+    "issue": 73,
+    "pages": [
+        2065,
+        2086
+    ],
+    "title": "Distance Patterns in Structural Similarity",
+    "volume": "7",
+    "year": "2006"
+}

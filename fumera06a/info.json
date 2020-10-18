@@ -1,0 +1,17 @@
+{
+    "abstract": "In recent years anti-spam filters have become necessary tools for\nInternet service providers to face up to the continuously growing spam\nphenomenon.  Current server-side anti-spam filters are made up of\nseveral modules aimed at detecting different features of spam e-mails.\nIn particular, text categorisation techniques have been investigated\nby researchers for the design of modules for the analysis of the\nsemantic content of e-mails, due to their potentially higher\ngeneralisation capability with respect to manually derived\nclassification rules used in current server-side filters.  However,\nvery recently spammers introduced a new trick consisting of embedding\nthe spam message into attached images, which can make all current\ntechniques based on the analysis of digital text in the subject and\nbody fields of e-mails ineffective.\nIn this paper we propose an\napproach to anti-spam filtering which exploits the text information\nembedded into images sent as attachments.  Our approach is based on\nthe application of state-of-the-art text categorisation techniques to\nthe analysis of text extracted by OCR tools from images attached to\ne-mails.  The effectiveness of the proposed approach is experimentally\nevaluated on two large corpora of spam e-mails.",
+    "authors": [
+        "Giorgio Fumera",
+        "Ignazio Pillai",
+        "Fabio Roli"
+    ],
+    "id": "fumera06a",
+    "issue": 97,
+    "pages": [
+        2699,
+        2720
+    ],
+    "title": "Spam Filtering Based On The Analysis Of Text Information Embedded Into Images",
+    "volume": "7",
+    "year": "2006"
+}

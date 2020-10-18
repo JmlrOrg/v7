@@ -1,0 +1,15 @@
+{
+    "abstract": "The goal of active learning is to determine the locations of training\ninput points so that the generalization error is minimized.  We\ndiscuss the problem of active learning in linear regression scenarios.\nTraditional active learning methods using least-squares learning often\nassume that the model used for learning is correctly specified.  In\nmany practical situations, however, this assumption may not be\nfulfilled.  Recently, active learning methods using\n\"importance\"-weighted least-squares learning have been proposed, which\nare shown to be robust against misspecification of models.  In this\npaper, we propose a new active learning method also using the weighted\nleast-squares learning, which we call <i>ALICE</i> (Active Learning\nusing the Importance-weighted least-squares learning based on\nConditional Expectation of the generalization error).  An important\ndifference from existing methods is that we predict the\n<i>conditional</i> expectation of the generalization error given\ntraining input points, while existing methods predict the <i>full</i>\nexpectation of the generalization error.  Due to this difference, the\ntraining input design can be fine-tuned depending on the realization\nof training input points.  Theoretically, we prove that the proposed\nactive learning criterion is a more accurate predictor of the\n<i>single-trial</i> generalization error than the existing criterion.\nNumerical studies with toy and benchmark data sets show that the\nproposed method compares favorably to existing methods.",
+    "authors": [
+        "Masashi Sugiyama"
+    ],
+    "id": "sugiyama06a",
+    "issue": 5,
+    "pages": [
+        141,
+        166
+    ],
+    "title": "Active Learning in Approximately Linear Regression Based on Conditional Expectation of Generalization Error",
+    "volume": "7",
+    "year": "2006"
+}

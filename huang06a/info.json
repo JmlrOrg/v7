@@ -1,0 +1,17 @@
+{
+    "abstract": "The Bradley-Terry model for obtaining individual skill from paired\ncomparisons has been popular in many areas.  In machine learning, this\nmodel is related to multi-class probability estimates by coupling all\npairwise classification results. Error correcting output codes (ECOC)\nare a general framework to decompose a multi-class problem to several\nbinary problems. To obtain probability estimates under this framework,\nthis paper introduces a generalized Bradley-Terry model in which\npaired individual comparisons are extended to paired team comparisons.\nWe propose a simple algorithm with convergence proofs to solve the\nmodel and obtain individual skill. Experiments on synthetic and re al\ndata demonstrate that the algorithm is useful for obtaining\nmulti-class probability estimates. Moreover, we discuss four\nextensions of the proposed model: 1) weighted individual skill, 2)\nhome-field advantage, 3) ties, and 4) comparisons with more than two\nteams.",
+    "authors": [
+        "Tzu-Kuo Huang",
+        "Ruby C. Weng",
+        "Chih-Jen Lin"
+    ],
+    "id": "huang06a",
+    "issue": 3,
+    "pages": [
+        85,
+        115
+    ],
+    "title": "Generalized Bradley-Terry Models and Multi-Class Probability Estimates",
+    "volume": "7",
+    "year": "2006"
+}

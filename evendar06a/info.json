@@ -1,0 +1,17 @@
+{
+    "abstract": "We incorporate statistical confidence intervals in both the\nmulti-armed bandit and the reinforcement learning problems. In the\nbandit problem we show that given <i>n</i> arms, it suffices to pull the\narms a total of <i>O</i>((<i>n</i>/&#949;<sup>2</sup>)log(1/&#948;)) times to\nfind an &#949;-optimal arm with probability of at least 1-&#948;.\nThis bound matches the lower bound of Mannor and Tsitsiklis (2004)\nup to constants. We also devise action elimination\nprocedures in reinforcement learning algorithms. We describe a\nframework that is based on learning the confidence interval around\nthe value function or the Q-function and eliminating actions that\nare not optimal (with high probability). We provide a model-based\nand a model-free variants of the elimination method. We further\nderive stopping conditions guaranteeing that the learned policy is\napproximately optimal with high probability. Simulations demonstrate\na considerable speedup and added robustness over &#949;-greedy\nQ-learning.",
+    "authors": [
+        "Eyal Even-Dar",
+        "Shie Mannor",
+        "Yishay Mansour"
+    ],
+    "id": "evendar06a",
+    "issue": 38,
+    "pages": [
+        1079,
+        1105
+    ],
+    "title": "Action Elimination and Stopping Conditions for the Multi-Armed Bandit and Reinforcement Learning Problems",
+    "volume": "7",
+    "year": "2006"
+}

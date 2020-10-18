@@ -1,0 +1,15 @@
+{
+    "abstract": "Consider the problem of joint parameter estimation and prediction in a\nMarkov random field: that is, the model parameters are estimated on the\nbasis of an initial set of data, and then the fitted model is used to\nperform prediction (e.g., smoothing, denoising, interpolation) on a\nnew noisy observation.  Working under the restriction of limited\ncomputation, we analyze a joint method in which the <i>same convex\nvariational relaxation</i> is used to construct an M-estimator for\nfitting parameters, and to perform approximate marginalization for the\nprediction step.  The key result of this paper is that in the\ncomputation-limited setting, using an inconsistent parameter estimator\n(i.e., an estimator that returns the \"wrong\" model even in the\ninfinite data limit) is provably beneficial, since the resulting\nerrors can partially compensate for errors made by using an\napproximate prediction technique.  En route to this result, we analyze\nthe asymptotic properties of M-estimators based on convex variational\nrelaxations, and establish a Lipschitz stability property that holds\nfor a broad class of convex variational methods.  This stability\nresult provides additional incentive, apart from the obvious benefit\nof unique global optima, for using message-passing methods based on\nconvex variational relaxations.  We show that joint\nestimation/prediction based on the reweighted sum-product algorithm\nsubstantially outperforms a commonly used heuristic based on ordinary\nsum-product.",
+    "authors": [
+        "Martin J. Wainwright"
+    ],
+    "id": "wainwright06a",
+    "issue": 65,
+    "pages": [
+        1829,
+        1859
+    ],
+    "title": "Estimating the ``Wrong'' Graphical Model: Benefits in the Computation-Limited Setting",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "Several fundamental security mechanisms for restricting access to\nnetwork resources rely on the ability of a reference monitor to\ninspect the contents of traffic as it traverses the network.  However,\nwith the increasing popularity of cryptographic protocols, the\ntraditional means of inspecting packet contents to enforce security\npolicies is no longer a viable approach as message contents are\nconcealed by encryption. In this paper, we investigate the extent to\nwhich common application protocols can be identified using only the\nfeatures that remain intact after encryption---namely packet size,\ntiming, and direction.  We first present what we believe to be the\nfirst exploratory look at protocol identification in encrypted tunnels\nwhich carry traffic from many TCP connections simultaneously, using\nonly post-encryption observable features.  We then explore the problem\nof protocol identification in individual encrypted TCP connections,\nusing much less data than in other recent approaches.  The results of\nour evaluation show that our classifiers achieve accuracy greater than\n90% for several protocols in aggregate traffic, and, for most\nprotocols, greater than 80% when making fine-grained classifications\non single connections.  Moreover, perhaps most surprisingly, we show\nthat one can even estimate the number of live connections in certain\nclasses of encrypted tunnels to within, on average, better than 20%.",
+    "authors": [
+        "Charles V. Wright",
+        "Fabian Monrose",
+        "Gerald M. Masson"
+    ],
+    "id": "wright06a",
+    "issue": 99,
+    "pages": [
+        2745,
+        2769
+    ],
+    "title": "On Inferring Application Protocol Behaviors in Encrypted Network Traffic",
+    "volume": "7",
+    "year": "2006"
+}

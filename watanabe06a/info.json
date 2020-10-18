@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nBayesian learning has been widely used and proved to be effective in many\n data modeling problems. However, computations involved in it require\n huge costs and generally cannot be performed exactly. The variational \nBayesian approach, proposed as an approximation of Bayesian learning, \nhas provided computational tractability and good generalization \nperformance in many applications. \n</p><p>\n The properties and capabilities of variational Bayesian learning itself have not\n been clarified yet. It is still unknown how good approximation the\n variational Bayesian approach can achieve. In this paper, we discuss \nvariational Bayesian learning of Gaussian\n mixture models and derive upper and lower bounds of variational \nstochastic complexities. The variational stochastic complexity, \nwhich corresponds to the minimum variational free energy and a lower \nbound of the Bayesian evidence, not only becomes important in\n addressing the model selection problem, but also enables us to discuss the\n accuracy of the variational Bayesian approach as an approximation of \ntrue Bayesian learning.\n</p>",
+    "authors": [
+        "Kazuho Watanabe",
+        "Sumio Watanabe"
+    ],
+    "id": "watanabe06a",
+    "issue": 21,
+    "pages": [
+        625,
+        644
+    ],
+    "title": "Stochastic Complexities of Gaussian Mixtures in Variational Bayesian Approximation",
+    "volume": "7",
+    "year": "2006"
+}

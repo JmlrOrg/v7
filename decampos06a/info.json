@@ -1,0 +1,15 @@
+{
+    "abstract": "We propose a new scoring function for learning Bayesian networks from\ndata using score+search algorithms. This is based on the concept of\nmutual information and exploits some well-known properties of this\nmeasure in a novel way. Essentially, a statistical independence test\nbased on the chi-square distribution, associated with the mutual\ninformation measure, together with a property of additive\ndecomposition of this measure, are combined in order to measure the\ndegree of interaction between each variable and its parent variables\nin the network.  The result is a non-Bayesian scoring function called\nMIT (mutual information tests) which belongs to the family of scores\nbased on information theory. The MIT score also represents a\npenalization of the Kullback-Leibler divergence between the joint\nprobability distributions associated with a candidate network and with\nthe available data set.  Detailed results of a complete experimental\nevaluation of the proposed scoring function and its comparison with\nthe well-known K2, BDeu and BIC/MDL scores are also presented.",
+    "authors": [
+        "Luis M. de Campos"
+    ],
+    "id": "decampos06a",
+    "issue": 76,
+    "pages": [
+        2149,
+        2187
+    ],
+    "title": "A Scoring Function for Learning Bayesian Networks based on Mutual Information and Conditional Independence Tests",
+    "volume": "7",
+    "year": "2006"
+}

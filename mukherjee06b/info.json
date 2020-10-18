@@ -1,0 +1,16 @@
+{
+    "abstract": "We introduce an algorithm that simultaneously estimates a\nclassification function as well as its gradient in\nthe supervised learning framework. The motivation for the\nalgorithm is to find salient variables and estimate\nhow they covary. An efficient implementation with respect\nto both memory and time is given. The utility of the\nalgorithm is illustrated on  simulated data as well as a gene\nexpression data set. An error analysis is given for\nthe convergence of the estimate of the classification function\nand its gradient to the true classification function and\ntrue gradient.",
+    "authors": [
+        "Sayan Mukherjee",
+        "Qiang Wu"
+    ],
+    "id": "mukherjee06b",
+    "issue": 87,
+    "pages": [
+        2481,
+        2514
+    ],
+    "title": "Estimation of Gradients and Coordinate Covariation in Classification",
+    "volume": "7",
+    "year": "2006"
+}

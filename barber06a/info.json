@@ -1,0 +1,15 @@
+{
+    "abstract": "We introduce a method for approximate smoothed inference in a class\nof switching linear dynamical systems, based on a novel form of\nGaussian Sum smoother. This class includes the switching Kalman\n'Filter' and the more general case of switch transitions dependent\non the continuous latent state. The method improves on the standard\nKim smoothing approach by dispensing with one of the key\napproximations, thus making fuller use of the available future\ninformation.\nWhilst the central assumption required is projection to a mixture of\nGaussians, we show that an additional conditional independence\nassumption results in a simpler but accurate alternative. Our method\nconsists of a single Forward and Backward Pass and is reminiscent of\nthe standard smoothing 'correction' recursions in the simpler linear\ndynamical system. The method is numerically stable and compares\nfavourably against alternative approximations, both in cases where a\nsingle mixture component provides a good posterior approximation,\nand where a multimodal approximation is required.",
+    "authors": [
+        "David Barber"
+    ],
+    "id": "barber06a",
+    "issue": 88,
+    "pages": [
+        2515,
+        2540
+    ],
+    "title": "Expectation Correction for Smoothed Inference in Switching Linear Dynamical Systems",
+    "volume": "7",
+    "year": "2006"
+}

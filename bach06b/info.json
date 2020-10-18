@@ -1,0 +1,16 @@
+{
+    "abstract": "Spectral clustering refers to a class of techniques which rely on\nthe eigenstructure of a similarity matrix to partition points into\ndisjoint clusters, with points in the same cluster having high\nsimilarity and points in different clusters having low similarity.\nIn this paper, we derive new cost functions for spectral\nclustering based on measures of error between a given partition\nand a solution of the spectral relaxation of a minimum normalized\ncut problem.  Minimizing these cost functions with respect to the\npartition leads to new spectral clustering algorithms.  Minimizing\nwith respect to the similarity matrix leads to algorithms for\nlearning the similarity matrix from fully labelled data sets. We\napply our learning algorithm to the blind one-microphone speech\nseparation problem, casting the problem as one of segmentation\nof the spectrogram.",
+    "authors": [
+        "Francis R. Bach",
+        "Michael I. Jordan"
+    ],
+    "id": "bach06b",
+    "issue": 70,
+    "pages": [
+        1963,
+        2001
+    ],
+    "title": "Learning Spectral Clustering, With Application To Speech Separation",
+    "volume": "7",
+    "year": "2006"
+}

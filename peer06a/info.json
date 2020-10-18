@@ -1,0 +1,17 @@
+{
+    "abstract": "In recent years, there has been a growing interest in applying Bayesian\nnetworks and their extensions to reconstruct <i>regulatory networks</i> from\ngene expression data.  Since the gene expression domain involves a large\nnumber of variables and a limited number of samples, it poses both\ncomputational and statistical challenges to Bayesian network learning\nalgorithms.  Here we define a constrained family of Bayesian network\nstructures suitable for this domain and devise an efficient search algorithm\nthat utilizes these structural constraints to find high scoring networks\nfrom data.  Interestingly, under reasonable assumptions on the underlying\nprobability distribution, we can provide performance guarantees on our\nalgorithm. Evaluation on real data from yeast and mouse, demonstrates that\nour method cannot only reconstruct a high quality model of the yeast\nregulatory network, but is also the first method to scale to the complexity\nof mammalian networks and successfully reconstructs a reasonable model over\nthousands of variables.",
+    "authors": [
+        "Dana Pe'er",
+        "Amos Tanay",
+        "Aviv Regev"
+    ],
+    "id": "peer06a",
+    "issue": 6,
+    "pages": [
+        167,
+        189
+    ],
+    "title": "MinReg: A Scalable Algorithm for Learning Parsimonious Regulatory Networks in Yeast and Mammals",
+    "volume": "7",
+    "year": "2006"
+}

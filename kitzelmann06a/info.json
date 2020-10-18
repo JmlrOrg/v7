@@ -1,0 +1,16 @@
+{
+    "abstract": "We describe an approach to the inductive synthesis of recursive\nequations from input/output-examples which is based on the classical\ntwo-step approach to induction of functional Lisp programs of\nSummers (1977).  In a first step, I/O-examples are rewritten to\ntraces which explain the outputs given the respective inputs based on\na datatype theory. These traces can be integrated into one conditional\nexpression which represents a non-recursive program.  In a second\nstep, this initial program term is generalized into recursive\nequations by searching for syntactical regularities in the term. Our\napproach extends the classical work in several aspects. The most\nimportant extensions are that we are able to induce a <i>set</i> of\nrecursive equations in one synthesizing step, the equations may\ncontain more than one recursive call, and additionally needed\nparameters are automatically introduced.",
+    "authors": [
+        "Emanuel Kitzelmann",
+        "Ute Schmid"
+    ],
+    "id": "kitzelmann06a",
+    "issue": 14,
+    "pages": [
+        429,
+        454
+    ],
+    "title": "Inductive Synthesis of Functional Programs: An Explanation Based Generalization Approach",
+    "volume": "7",
+    "year": "2006"
+}

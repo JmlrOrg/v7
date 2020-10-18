@@ -1,0 +1,18 @@
+{
+    "abstract": "In recent years, several methods have been proposed for the discovery\nof causal structure from non-experimental data. Such methods make\nvarious assumptions on the data generating process to facilitate its\nidentification from purely observational data. Continuing this line of\nresearch, we show how to discover the complete causal structure of\ncontinuous-valued data, under the assumptions that (a) the data\ngenerating process is linear, (b) there are no unobserved confounders,\nand (c) disturbance variables have non-Gaussian distributions of\nnon-zero variances. The solution relies on the use of the statistical\nmethod known as independent component analysis, and does not require\nany pre-specified time-ordering of the variables. We provide a\ncomplete Matlab package for performing this LiNGAM analysis (short for\nLinear Non-Gaussian Acyclic Model), and demonstrate the effectiveness\nof the method using artificially generated data and real-world data.",
+    "authors": [
+        "Shohei Shimizu",
+        "Patrik O. Hoyer",
+        "Aapo Hyv&#228;rinen",
+        "Antti Kerminen"
+    ],
+    "id": "shimizu06a",
+    "issue": 71,
+    "pages": [
+        2003,
+        2030
+    ],
+    "title": "A Linear Non-Gaussian Acyclic Model for Causal Discovery",
+    "volume": "7",
+    "year": "2006"
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "While methods for comparing two learning algorithms on a single\ndata set have been scrutinized for quite some time already, the\nissue of statistical tests for comparisons of more algorithms on\nmultiple data sets, which is even more essential to typical machine\nlearning studies, has been all but ignored. This article reviews\nthe current practice and then theoretically and empirically\nexamines several suitable tests. Based on that, we recommend a set\nof simple, yet safe and robust non-parametric tests for\nstatistical comparisons of classifiers: the Wilcoxon signed ranks\ntest for comparison of two classifiers and the Friedman test with\nthe corresponding post-hoc tests for comparison of more classifiers\nover multiple data sets. Results of the latter can also be neatly\npresented with the newly introduced CD (critical difference)\ndiagrams.",
+    "authors": [
+        "Janez Dem{\\v{s}}ar"
+    ],
+    "id": "demsar06a",
+    "issue": 0,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Statistical Comparisons of Classifiers over Multiple Data Sets",
+    "volume": "7",
+    "year": "2006"
+}

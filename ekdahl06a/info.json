@@ -1,0 +1,16 @@
+{
+    "abstract": "In many pattern recognition/classification problem the true class\nconditional model and class probabilities are approximated for reasons\nof reducing complexity and/or of statistical estimation.  The\napproximated classifier is expected to have worse performance, here\nmeasured by the probability of correct classification. We present an\nanalysis valid in general, and easily computable formulas for\nestimating the degradation in probability of correct classification\nwhen compared to the optimal classifier. An example of an\napproximation is the Na&#239;ve Bayes classifier. We show that the\nperformance of the Na&#239;ve Bayes depends on the degree of functional\ndependence between the features and labels.  We provide a sufficient\ncondition for zero loss of performance, too.",
+    "authors": [
+        "Magnus Ekdahl",
+        "Timo Koski"
+    ],
+    "id": "ekdahl06a",
+    "issue": 86,
+    "pages": [
+        2449,
+        2480
+    ],
+    "title": "Bounds for the Loss in Probability of Correct Classification Under Model Based Approximation",
+    "volume": "7",
+    "year": "2006"
+}

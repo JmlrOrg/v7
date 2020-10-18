@@ -1,0 +1,16 @@
+{
+    "abstract": "We develop a new component analysis framework, the <i>Noisy-Or\nComponent Analyzer</i> (NOCA), that targets high-dimensional binary\ndata. NOCA is a probabilistic latent variable model that assumes the\nexpression of observed high-dimensional binary data is driven by a\nsmall number of hidden binary sources combined via noisy-or units.\nThe component analysis procedure is equivalent to learning of NOCA\nparameters.  Since the classical EM formulation of the NOCA learning\nproblem is intractable, we develop its variational approximation.  We\ntest the NOCA framework on two problems: (1) a synthetic\nimage-decomposition problem and (2) a co-citation data analysis\nproblem for thousands of CiteSeer documents. We demonstrate good\nperformance of the new model on both problems.  In addition, we\ncontrast the model to two mixture-based latent-factor models: the\nprobabilistic latent semantic analysis (PLSA) and latent Dirichlet\nallocation (LDA).  Differing assumptions underlying these models cause\nthem to discover different types of structure in co-citation data,\nthus illustrating the benefit of NOCA in building our understanding of\nhigh-dimensional data sets.",
+    "authors": [
+        "Tom{{\\'a}}{\\v{s}} &#352;ingliar",
+        "Milo{\\v{s}} Hauskrecht"
+    ],
+    "id": "singliar06a",
+    "issue": 77,
+    "pages": [
+        2189,
+        2213
+    ],
+    "title": "Noisy-OR Component Analysis and its Application to Link Analysis",
+    "volume": "7",
+    "year": "2006"
+}

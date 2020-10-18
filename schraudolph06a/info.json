@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper presents an online support vector machine (SVM) that uses\nthe stochastic meta-descent (SMD) algorithm to adapt its step size\nautomatically.  We formulate the online learning problem as a\nstochastic gradient descent in reproducing kernel Hilbert space\n(RKHS) and translate SMD to the nonparametric setting, where its\ngradient trace parameter is no longer a coefficient vector but an\nelement of the RKHS.  We derive efficient updates that allow us to\nperform the step size adaptation in linear time.  We apply the\nonline SVM framework to a variety of loss functions, and in\nparticular show how to handle structured output spaces and achieve\nefficient online multiclass classification. Experiments show that\nour algorithm outperforms more primitive methods for setting the\ngradient step size.",
+    "authors": [
+        "S. V. N. Vishwanathan",
+        "Nicol N. Schraudolph",
+        "Alex J. Smola"
+    ],
+    "id": "schraudolph06a",
+    "issue": 39,
+    "pages": [
+        1107,
+        1133
+    ],
+    "title": "Step Size Adaptation in Reproducing Kernel Hilbert Space",
+    "volume": "7",
+    "year": "2006"
+}

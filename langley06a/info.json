@@ -1,0 +1,16 @@
+{
+    "abstract": "In this paper, we propose a new representation for physical control\n-- teleoreactive logic programs -- along with an interpreter that\nuses them to achieve goals. In addition, we present a new learning\nmethod that acquires recursive forms of these structures from traces\nof successful problem solving. We report experiments in three different\ndomains that demonstrate the generality of this approach. In closing,\nwe review related work on learning complex skills and discuss directions\nfor future research on this topic.",
+    "authors": [
+        "Pat Langley",
+        "Dongkyu Choi"
+    ],
+    "id": "langley06a",
+    "issue": 16,
+    "pages": [
+        493,
+        518
+    ],
+    "title": "Learning Recursive Control Programs from Problem Solving",
+    "volume": "7",
+    "year": "2006"
+}

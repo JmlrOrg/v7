@@ -1,0 +1,16 @@
+{
+    "abstract": "In this article we describe a set of scalable techniques for\nlearning the behavior of a group of agents in a collaborative\nmultiagent setting.  As a basis we use the framework of coordination\ngraphs of Guestrin, Koller, and Parr (2002a) which exploits the dependencies between\nagents to decompose the global payoff function into a sum of local\nterms. First, we deal with the single-state case and describe a\npayoff propagation algorithm that computes the individual actions\nthat approximately maximize the global payoff function.  The method\ncan be viewed as the decision-making analogue of belief propagation\nin Bayesian networks. Second, we focus on learning the behavior of\nthe agents in sequential decision-making tasks.  We introduce\ndifferent model-free reinforcement-learning techniques, unitedly\ncalled Sparse Cooperative <i>Q</i>-learning, which approximate the global\naction-value function based on the topology of a coordination graph,\nand perform updates using the contribution of the individual agents\nto the maximal global action value.  The combined use of an\nedge-based decomposition of the action-value function and the payoff\npropagation algorithm for efficient action selection, result in an\napproach that scales only linearly in the problem size. We provide\nexperimental evidence that our method outperforms related multiagent\nreinforcement-learning methods based on temporal differences.",
+    "authors": [
+        "Jelle R. Kok",
+        "Nikos Vlassis"
+    ],
+    "id": "kok06a",
+    "issue": 64,
+    "pages": [
+        1789,
+        1828
+    ],
+    "title": "Collaborative Multiagent Reinforcement Learning by Payoff Propagation",
+    "volume": "7",
+    "year": "2006"
+}

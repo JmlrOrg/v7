@@ -1,0 +1,15 @@
+{
+    "abstract": "Kernels are two-placed functions that can be interpreted as inner\nproducts in some Hilbert space.  It is this property which makes\nkernels predestinated to carry linear models of learning,\noptimization or classification strategies over to non-linear variants.\nFollowing this idea, various kernel-based methods like support vector\nmachines or kernel principal component analysis have been conceived\nwhich prove to be successful for machine learning, data mining and\ncomputer vision applications.  When applying a kernel-based method a\ncentral question is the choice and the design of the kernel function.\nThis paper provides a novel view on kernels based on fuzzy-logical\nconcepts which allows to incorporate prior knowledge in the design\nprocess.  It is demonstrated that kernels mapping to the unit interval\nwith constant one in its diagonal can be represented by a commonly\nused fuzzy-logical formula for representing fuzzy rule bases.  This\nmeans that a great class of kernels can be represented by\nfuzzy-logical concepts.  Apart from this result, which only guarantees\nthe existence of such a representation, constructive examples are\npresented and the relation to unlabeled learning is pointed out.",
+    "authors": [
+        "Bernhard Moser"
+    ],
+    "id": "moser06a",
+    "issue": 92,
+    "pages": [
+        2603,
+        2620
+    ],
+    "title": "On Representing and Generating Kernels by Fuzzy Equivalence Relations",
+    "volume": "7",
+    "year": "2006"
+}

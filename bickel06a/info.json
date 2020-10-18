@@ -1,0 +1,17 @@
+{
+    "abstract": "We give a review of various aspects of boosting, clarifying the\nissues through a few simple results, and relate our work and that of\nothers to the minimax paradigm of statistics. We consider the\npopulation version of the  boosting algorithm and prove its\nconvergence to the Bayes classifier as a corollary of a general\nresult about Gauss-Southwell optimization in Hilbert space. We then\ninvestigate the algorithmic  convergence of the sample version, and\ngive bounds to the time until perfect separation of the sample. We\nconclude by some results on the statistical optimality of the <i>L<sub>2</sub></i>\nboosting.",
+    "authors": [
+        "Peter J. Bickel",
+        "Ya'acov Ritov",
+        "Alon Zakai"
+    ],
+    "id": "bickel06a",
+    "issue": 24,
+    "pages": [
+        705,
+        732
+    ],
+    "title": "Some Theory for Generalized Boosting Algorithms",
+    "volume": "7",
+    "year": "2006"
+}

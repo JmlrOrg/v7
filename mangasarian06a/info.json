@@ -1,0 +1,15 @@
+{
+    "abstract": "Support vector machines utilizing the 1-norm, typically\nset up as linear programs (Mangasarian, 2000; Bradley and \nMangasarian, 1998), are formulated here\nas a completely unconstrained minimization  of a convex differentiable \npiecewise-quadratic objective function in the dual space. The objective function,\nwhich has a Lipschitz continuous gradient and contains only one\nadditional finite parameter, can be minimized by a generalized\nNewton method and leads to an exact solution of the support vector\nmachine problem. The approach here is based on a formulation\nof a very general linear program as an unconstrained minimization\nproblem and its application to support vector machine classification\nproblems. The present approach which generalizes both\n(Mangasarian, 2004) and (Fung and Mangasarian, 2004) is also applied to nonlinear\napproximation where a minimal number of nonlinear kernel functions\nare utilized to approximate a function from a given number\nof function values.",
+    "authors": [
+        "Olvi L. Mangasarian"
+    ],
+    "id": "mangasarian06a",
+    "issue": 55,
+    "pages": [
+        1517,
+        1530
+    ],
+    "title": "Exact 1-Norm Support Vector Machines Via Unconstrained Convex Differentiable Minimization",
+    "volume": "7",
+    "year": "2006"
+}

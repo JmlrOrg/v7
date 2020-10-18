@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nThe rise of convex programming has changed the face of many research\nfields in recent years, machine learning being one of the ones that\nbenefitted the most. A very recent developement, the relaxation of\ncombinatorial problems to semi-definite programs (SDP), has gained\nconsiderable attention over the last decade (Helmberg, 2000; De Bie \nand Cristianini, 2004a).\nAlthough SDP problems can be solved in polynomial time, for many\nrelaxations the exponent in the polynomial complexity bounds is too\nhigh for scaling to large problem sizes. This has hampered their\nuptake as a powerful new tool in machine learning.\n</p><p>\nIn this paper, we present a new and fast SDP relaxation of the\nnormalized graph cut problem, and investigate its usefulness in\nunsupervised and semi-supervised learning. In particular, this\nprovides a convex algorithm for transduction, as well as approaches\nto clustering. We further propose a whole cascade of fast\nrelaxations that all hold the middle between older spectral\nrelaxations and the new SDP relaxation, allowing one to trade off\ncomputational cost versus relaxation accuracy. Finally, we discuss\nhow the methodology developed in this paper can be applied to other\ncombinatorial problems in machine learning, and we treat the max-cut\nproblem as an example.\n</p>",
+    "authors": [
+        "Tijl De Bie",
+        "Nello Cristianini"
+    ],
+    "id": "debie06a",
+    "issue": 51,
+    "pages": [
+        1409,
+        1436
+    ],
+    "title": "Fast SDP Relaxations of Graph Cut Clustering, Transduction, and Other Combinatorial Problems",
+    "volume": "7",
+    "year": "2006"
+}
