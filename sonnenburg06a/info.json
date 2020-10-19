@@ -2,8 +2,8 @@
     "abstract": "While classical kernel-based learning algorithms are based on a single\nkernel, in practice it is often desirable to use multiple kernels.\nLanckriet et al. (2004) considered conic combinations of kernel\nmatrices for classification, leading to a convex quadratically\nconstrained quadratic program. We show that it can be rewritten as a\nsemi-infinite linear program that can be efficiently solved by\nrecycling the standard SVM implementations. Moreover, we generalize\nthe formulation and our method to a larger class of problems,\nincluding regression and one-class classification. Experimental\nresults show that the proposed algorithm works for hundred thousands of examples or\nhundreds of kernels to be combined, and helps for automatic model\nselection, improving the interpretability of the learning result. In a \nsecond part we discuss general speed up mechanism for\nSVMs, especially when used with <i>sparse</i> feature maps as appear\nfor string kernels, allowing us to train a string kernel SVM on a 10\nmillion real-world splice data set from computational biology.  We\nintegrated multiple kernel learning in our machine learning toolbox\n<tt>SHOGUN</tt> for which the source code is publicly available \nat <tt>http://www.fml.tuebingen.mpg.de/raetsch/projects/shogun</tt>.",
     "authors": [
         "S{{\\\"o}}ren Sonnenburg",
-        "Gunnar R&#228;tsch",
-        "Christin Sch&#228;fer",
+        "Gunnar R{{\\\"a}}tsch",
+        "Christin Sch{{\\\"a}}fer",
         "Bernhard Sch{{\\\"o}}lkopf"
     ],
     "id": "sonnenburg06a",
